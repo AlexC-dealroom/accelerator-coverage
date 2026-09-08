@@ -1,0 +1,44 @@
+[
+  {
+    "uuid": "b4001928-16c6-4af4-a5aa-a55fc65277fe",
+    "name": "NMotion (powered by gener8tor)",
+    "city": "Lincoln",
+    "website": "https://www.nmotion.co/",
+    "domain": "nmotion.co",
+    "hq_country": "United States",
+    "dealroom_portfolio": 120,
+    "last_round_year": null,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/nmotion"
+  },
+  {
+    "uuid": "66e8928a-60ca-4837-a4d0-2bded2376c03",
+    "name": "Steelworks Health Accelerator (UNeMed/UNeTech/CQuence Health)",
+    "city": "Omaha",
+    "website": "https://www.unemed.com/steel-works-health-accelerator",
+    "domain": "unemed.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 4,
+    "last_round_year": null,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/steelworks_health_accelerator"
+  },
+  {
+    "uuid": "b86f8b8b-0264-4f58-9f02-6d2731ab0131",
+    "name": "MAC Xcelerator (Midlands African Chamber)",
+    "city": "Omaha",
+    "website": "https://midlandsafricanchamber.com/mac-xcelerator/",
+    "domain": "midlandsafricanchamber.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/mac_xcelerator"
+  }
+]

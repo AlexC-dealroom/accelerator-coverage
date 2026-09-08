@@ -1,0 +1,16 @@
+[
+  {
+    "name": "Hub Goiás",
+    "uuid": "be76243b-0ca0-47cf-be29-827da28afe71",
+    "website": "https://hubgoias.org",
+    "website_status": "live",
+    "is_accelerator": true,
+    "activity_status": "active",
+    "evidence": "Public innovation hub fostering Goiás's startup ecosystem (Goiânia). Manually added 2026-08-23; re-check after post-election embargo. Website inferred (hubgoias.org) — verify.",
+    "evidence_url": null,
+    "evidence_date": "2026",
+    "cohort_throughput_estimate": null,
+    "website_matches_dealroom": true,
+    "confidence": "medium"
+  }
+]

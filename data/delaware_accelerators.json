@@ -1,0 +1,72 @@
+[
+  {
+    "uuid": "abbff219-d27c-45f0-afa4-11dc16aa9115",
+    "name": "Bronze Valley Investment Accelerator Delaware",
+    "city": "Wilmington",
+    "website": "https://www.bronzevalley.com/",
+    "domain": "bronzevalley.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 42,
+    "last_round_year": null,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/bronze_valley"
+  },
+  {
+    "uuid": "899b703b-b9f6-4549-b6d0-22912389e10a",
+    "name": "The Innovation Space - Science Inc. Accelerator",
+    "city": "Wilmington",
+    "website": "https://innovationspace.org/science-inc-accelerator/",
+    "domain": "innovationspace.org",
+    "hq_country": "United States",
+    "dealroom_portfolio": 90,
+    "last_round_year": null,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/the_innovation_space_1"
+  },
+  {
+    "uuid": "4594fe4c-7ecb-41e7-ac77-a847c9a2f4f2",
+    "name": "CAFE Fintech Accelerator (Center for Accelerating Financial Equity)",
+    "city": "Newark",
+    "website": "https://ftcafe.org/",
+    "domain": "ftcafe.org",
+    "hq_country": "United States",
+    "dealroom_portfolio": 3,
+    "last_round_year": null,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/cafe_center_for_accelerating_financial_equity"
+  },
+  {
+    "uuid": "noid-horn-entrepreneurship-summer-founders",
+    "name": "Horn Entrepreneurship Summer Founders",
+    "city": "Newark",
+    "website": "https://horn.udel.edu/topic/summer-founders",
+    "domain": "horn.udel.edu",
+    "hq_country": "United States",
+    "dealroom_portfolio": null,
+    "last_round_year": null,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": null
+  },
+  {
+    "uuid": "noid-business-on-main-street-accelerator",
+    "name": "Business on Main Street Accelerator",
+    "city": "Dover",
+    "website": "https://business.delaware.gov/on-main/",
+    "domain": "business.delaware.gov",
+    "hq_country": "United States",
+    "dealroom_portfolio": null,
+    "last_round_year": null,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": null
+  }
+]

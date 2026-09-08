@@ -1,0 +1,32 @@
+{
+  "abbff219-d27c-45f0-afa4-11dc16aa9115": {
+    "name": "Bronze Valley Investment Accelerator Delaware",
+    "cohort_month": 12,
+    "basis": "scarlet scout (cohort)",
+    "manual": false
+  },
+  "899b703b-b9f6-4549-b6d0-22912389e10a": {
+    "name": "The Innovation Space - Science Inc. Accelerator",
+    "cohort_month": 9,
+    "basis": "scarlet scout (cohort)",
+    "manual": false
+  },
+  "4594fe4c-7ecb-41e7-ac77-a847c9a2f4f2": {
+    "name": "CAFE Fintech Accelerator (Center for Accelerating Financial Equity)",
+    "cohort_month": 9,
+    "basis": "scarlet scout (cohort)",
+    "manual": false
+  },
+  "noid-horn-entrepreneurship-summer-founders": {
+    "name": "Horn Entrepreneurship Summer Founders",
+    "cohort_month": 8,
+    "basis": "scarlet scout (cohort)",
+    "manual": false
+  },
+  "noid-business-on-main-street-accelerator": {
+    "name": "Business on Main Street Accelerator",
+    "cohort_month": 9,
+    "basis": "scarlet scout (cohort)",
+    "manual": false
+  }
+}

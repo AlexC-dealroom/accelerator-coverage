@@ -1,0 +1,58 @@
+[
+  {
+    "name": "ACCEL-KS at KU Innovation Park",
+    "uuid": "878c740f-4862-42a0-b715-296ce528b436",
+    "website": "https://kuinnovationpark.com/",
+    "website_status": "live_and_relevant",
+    "is_accelerator": true,
+    "activity_status": "active",
+    "cohort_throughput_estimate": 16,
+    "website_matches_dealroom": true,
+    "evidence": "INCLUDE. Best mineable Kansas roster: 16 named ACCEL-KS cohort companies with founders + cities (Feb 2026). ACCEL-KS is grant-based/non-dilutive but a genuine cohort-based commercialization accelerator with a graduating class. KU Innovation Park's Dealroom portfolio (58) is mostly older/legacy tenants (Garmin, Rubrik, Matterport, Ainstein, etc.) - NONE of the 16 ACCEL-KS cohort companies are currently linked except Icorium. Table 2 participants = the ACCEL-KS cohort.",
+    "evidence_url": "https://kuinnovationpark.com/16-companies-earn-proof-of-concept-funding-from-accel-ks-at-ku-innovation-park/",
+    "evidence_date": "2026-05",
+    "confidence": "high"
+  },
+  {
+    "name": "ACCEL-KS at Groover Labs",
+    "uuid": "4c571985-4056-48cf-8fc0-bccf39842be1",
+    "website": "https://www.grooverlabs.org/accel-ks",
+    "website_status": "live_and_relevant",
+    "is_accelerator": true,
+    "activity_status": "active",
+    "cohort_throughput_estimate": 25,
+    "website_matches_dealroom": true,
+    "evidence": "INCLUDE. Groover Labs runs the Wichita half of ACCEL-KS + its own 12-wk CAMPFIRE course. 25 Year-1 founders across AgTech/ConTech/defense/EdTech/aerospace/AI/robotics/IIoT. Dealroom portfolio=0 (no participants linked). Individual company roster with websites NOT published as a clean list (founder spotlights only) -> not padded. Also feeds NXTUS Customer Traction Cohort (7 ACCEL-KS grantees joined 2026).",
+    "evidence_url": "https://www.grooverlabs.org/news/startup-showcase-recap-2026",
+    "evidence_date": "2026-07",
+    "confidence": "high"
+  },
+  {
+    "name": "NXTUS / NXTSTAGE Startup Programs",
+    "uuid": "488d9510-d9ef-4d83-9d0e-63aa601629dc",
+    "website": "https://www.nxtus.io/",
+    "website_status": "live_and_relevant",
+    "is_accelerator": true,
+    "activity_status": "active",
+    "cohort_throughput_estimate": 40,
+    "website_matches_dealroom": true,
+    "evidence": "INCLUDE (borderline: customer-traction accelerator, not equity/investment). Rosters ARE published (16 EES companies w/ cities; 22 Customer Traction w/ cities; 9 health finalists). Dealroom entity exists as 'Nxtstage' (portfolio=0, none linked). Many roster members are small local service/product SMBs (bilingual resources, pastries, freight, DJing) rather than investable tech startups - a NET-NEW mine here needs per-company domain resolution + is-it-a-real-startup screening; flagged for a follow-up pass, NOT padded into Table 2 this run. Some roster cities are MO/TX/AR/NE/OK (out-of-KS).",
+    "evidence_url": "https://www.nxtus.io/news/16-business-builders-chosen-for-fifth-annual-enterprise-engagement-series-cohort",
+    "evidence_date": "2026-07",
+    "confidence": "high"
+  },
+  {
+    "name": "K-State Center for the Advancement of Entrepreneurship - Accelerator Program",
+    "uuid": "noid-k-state-center-for-the-advancement-of-entrepreneurship-accelerator-program",
+    "website": "https://cba.k-state.edu/academics/departments/center-advancement-entrepreneurship/accelerator.html",
+    "website_status": "live_and_relevant",
+    "is_accelerator": true,
+    "activity_status": "active",
+    "cohort_throughput_estimate": 20,
+    "website_matches_dealroom": true,
+    "evidence": "INCLUDE-with-caveat (medium confidence). University accelerator; Growth track targets Kansas startups with some sales (up to $50k access). No public named company roster located for recent cohorts (only 'Fall 2026 Idea Track Entrepreneurs' header, no list) -> not mined. Not in Dealroom. Verdict: review (moderators decide whether to create the accelerator entity).",
+    "evidence_url": "https://cba.k-state.edu/academics/departments/center-advancement-entrepreneurship/accelerator.html",
+    "evidence_date": "2026-08",
+    "confidence": "medium"
+  }
+]

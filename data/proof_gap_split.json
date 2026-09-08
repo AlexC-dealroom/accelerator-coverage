@@ -1,0 +1,459 @@
+{
+  "BiotechTown": [
+    {
+      "name": "Aclin",
+      "match": "Aclinic",
+      "country": null,
+      "domain": "aclinic.jp",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "Aiper",
+      "match": "Aiper",
+      "country": "Brazil",
+      "domain": "aiper.com.br",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Algaforte",
+      "match": "Pharmaforte",
+      "country": "Singapore",
+      "decision": "absent"
+    },
+    {
+      "name": "Bioplix",
+      "match": "Bioplastix",
+      "country": "Mexico",
+      "decision": "absent"
+    },
+    {
+      "name": "Birth Tech",
+      "match": "Birthtech",
+      "country": "Portugal",
+      "domain": "birthtech.com.br",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "Celluris",
+      "match": "Celluris Participações",
+      "country": "Brazil",
+      "domain": "celluris.com",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Cepha Biotech",
+      "match": "AIS Biotech",
+      "country": "France",
+      "decision": "absent"
+    },
+    {
+      "name": "Embryoall",
+      "match": "Embryo",
+      "country": "United States",
+      "domain": "embryoapp.com",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "Eye Connect",
+      "match": "Mesh Connect",
+      "country": "United States",
+      "decision": "absent"
+    },
+    {
+      "name": "Far Me",
+      "match": "Far.me",
+      "country": "Brazil",
+      "domain": "farme.com.br",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Imunotera",
+      "match": "Imunotera",
+      "country": null,
+      "domain": "imunotera.com.br",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "Kaauy",
+      "match": "Kaa",
+      "country": null,
+      "decision": "absent"
+    },
+    {
+      "name": "Kimera",
+      "match": "Kimera",
+      "country": "Spain",
+      "domain": "kimeraimages.com",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "Laboratório da Cerveja",
+      "match": "Emporiodacerveja",
+      "country": "Brazil",
+      "decision": "absent"
+    },
+    {
+      "name": "MedYes",
+      "match": "MEDYES",
+      "country": "Brazil",
+      "domain": "medyes.com.br",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Microbiotec",
+      "match": "Microbiotech",
+      "country": "Spain",
+      "domain": "microbiotech.es",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "Microciclo",
+      "match": "Microcide",
+      "country": "United States",
+      "decision": "absent"
+    },
+    {
+      "name": "NanoSmart",
+      "match": "NanoSmart",
+      "country": "Finland",
+      "domain": "nanosmart.fi",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "OncoTag",
+      "match": "oncotag",
+      "country": "Brazil",
+      "domain": "oncotag.com.br",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Phast",
+      "match": "Phast",
+      "country": "Brazil",
+      "domain": "phast.com.br",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Preveni",
+      "match": "Preveni",
+      "country": "Brazil",
+      "domain": "preveni.com.br",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Quantis",
+      "match": "Quantis",
+      "country": "Switzerland",
+      "domain": "quantis.com",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "Recombine Biotech",
+      "match": "Recombinebiotech",
+      "country": "Brazil",
+      "domain": "recombinebiotech.com.br",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Rheabiotech",
+      "match": "RheaBiotech",
+      "country": "Brazil",
+      "domain": "rheabiotech.com.br",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Ziel",
+      "match": "Ziel",
+      "country": "United States",
+      "domain": "zielsensory.com",
+      "decision": "present_unlinked_other"
+    }
+  ],
+  "HARDS": [
+    {
+      "name": "Opera Dados",
+      "match": "Opera",
+      "country": "Norway",
+      "domain": "opera.com",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "Alben",
+      "match": "Albentia Systems",
+      "country": "Spain",
+      "domain": "albentia.com",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "Lastro",
+      "match": "Lastro",
+      "country": "Brazil",
+      "domain": "lais.ai",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Utrem Engenharia de Projetos",
+      "match": "?guaV Engenharia e Projetos LTDA",
+      "country": "Brazil",
+      "decision": "absent"
+    },
+    {
+      "name": "Mutualizo",
+      "match": "Mutualize Corp.",
+      "country": "France",
+      "decision": "absent"
+    },
+    {
+      "name": "PayFace",
+      "match": "Payface",
+      "country": "Brazil",
+      "domain": "payface.com.br",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Multiplica",
+      "match": "Multiplica",
+      "country": "Argentina",
+      "domain": "multiplica.com",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "Use Move",
+      "match": "movE",
+      "country": "Brazil",
+      "decision": "absent"
+    },
+    {
+      "name": "Yak Tractors",
+      "match": "Aeco Tractors",
+      "country": "Pakistan",
+      "decision": "absent"
+    }
+  ],
+  "Baita Accelerator": [
+    {
+      "name": "Opusphere",
+      "match": "Opusphere",
+      "country": "Brazil",
+      "domain": "opusphere.com",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Stattus4",
+      "match": "Stattus4",
+      "country": "Brazil",
+      "domain": "stattus4.com",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Virtual Avionics",
+      "match": "Virtual Avionics",
+      "country": "Brazil",
+      "domain": "virtualavionics.com.br",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Certus",
+      "match": "Certus",
+      "country": "United States",
+      "domain": "certus-inc.com",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "Antecipa Fácil",
+      "match": "Antecipa Fácil",
+      "country": "Brazil",
+      "domain": "antecipafacil.com.br",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "DNA Financeiro",
+      "match": "DNA Financeiro",
+      "country": "Brazil",
+      "domain": "dnafinanceiro.com",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Embarcados",
+      "match": "Embarc",
+      "country": "United Kingdom",
+      "domain": "embarc.club",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "Earlysec",
+      "match": "Earlysec",
+      "country": null,
+      "domain": "earlysec.com",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "Desh Tecnologia",
+      "match": "Tamborine Tecnologia",
+      "country": "Brazil",
+      "decision": "absent"
+    },
+    {
+      "name": "Magroove",
+      "match": "Magroove",
+      "country": "France",
+      "domain": "magroove.com",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "Nearbee",
+      "match": "Near bee",
+      "country": "Brazil",
+      "domain": "nearbee.com.br",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Neger Telecom",
+      "match": "Couger Telecom",
+      "country": "United States",
+      "decision": "absent"
+    },
+    {
+      "name": "GoKashy",
+      "match": "Kashy",
+      "country": "Oman",
+      "domain": "kashy.om",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "BeeTouch",
+      "match": "Beentouch",
+      "country": "Italy",
+      "domain": "beentouch.com",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "Inteliagri",
+      "match": "Intelia",
+      "country": "Spain",
+      "domain": "intelia-ai.com",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "Mesttra",
+      "match": "Mesttra",
+      "country": "Brazil",
+      "domain": "mesttra.com",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "AgroForte",
+      "match": "AgroForte",
+      "country": "Brazil",
+      "domain": "meuagroforte.com.br",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Autoponia",
+      "match": "Autoponics",
+      "country": "United States",
+      "decision": "absent"
+    },
+    {
+      "name": "Fazenda Cheia",
+      "match": "FazendaCheia",
+      "country": "Brazil",
+      "domain": "fazendacheia.com.br",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Agrity",
+      "match": "Agrity",
+      "country": "Brazil",
+      "domain": "agrity.com.br",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Fazu",
+      "match": "FAZUA",
+      "country": "Germany",
+      "decision": "absent"
+    },
+    {
+      "name": "IDGeo",
+      "match": "IDGeo",
+      "country": "Brazil",
+      "domain": "idgeo.farm",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Aquabit",
+      "match": "Aquabit",
+      "country": "Japan",
+      "domain": "aquabit.co.jp",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "BIA Technology",
+      "match": "Nebbia Technology",
+      "country": "United States",
+      "domain": "nebbiatech.com",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "Central do Boi",
+      "match": "Central do Frete",
+      "country": null,
+      "decision": "absent"
+    },
+    {
+      "name": "Fuga pras Colinas",
+      "match": "Mascolonia",
+      "country": "Uruguay",
+      "decision": "absent"
+    },
+    {
+      "name": "Agroinova",
+      "match": "AgroInnova",
+      "country": "Ghana",
+      "domain": "agroinnovagh.com",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "SoluBio",
+      "match": "Solubio",
+      "country": "Brazil",
+      "domain": "solubio.agr.br",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Agro Robotics",
+      "match": "iSPAGRO Robotics",
+      "country": "India",
+      "domain": "ispagro.in",
+      "decision": "present_unlinked_other"
+    },
+    {
+      "name": "FieldPRO",
+      "match": "FieldPRO",
+      "country": "Brazil",
+      "domain": "fieldpro.com.br",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "TecTeca",
+      "match": "TecTerra",
+      "country": "Canada",
+      "decision": "absent"
+    },
+    {
+      "name": "PlugIA",
+      "match": "PlugIA",
+      "country": "Brazil",
+      "domain": "plugia.com.br",
+      "decision": "present_unlinked_BR"
+    },
+    {
+      "name": "Decripte",
+      "match": "Decripte",
+      "country": "Brazil",
+      "domain": "decripte.io",
+      "decision": "present_unlinked_BR"
+    }
+  ]
+}

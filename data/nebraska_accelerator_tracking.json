@@ -1,0 +1,44 @@
+{
+  "b86f8b8b-0264-4f58-9f02-6d2731ab0131": {
+    "uuid": "b86f8b8b-0264-4f58-9f02-6d2731ab0131",
+    "name": "MAC Xcelerator (Midlands African Chamber)",
+    "recommended_cadence_days": null,
+    "cadence_basis": "active but participants rarely reported / largely out of scope",
+    "schedule_mode": "none",
+    "last_checked": "2026-08-27",
+    "next_due": null,
+    "next_due_override": null,
+    "status": "maintenance",
+    "owner": null,
+    "notes": null,
+    "manual_override": false
+  },
+  "66e8928a-60ca-4837-a4d0-2bded2376c03": {
+    "uuid": "66e8928a-60ca-4837-a4d0-2bded2376c03",
+    "name": "Steelworks Health Accelerator (UNeMed/UNeTech/CQuence Health)",
+    "recommended_cadence_days": 180,
+    "cadence_basis": "cohort-aligned: end of February (~12/yr cohort cycle)",
+    "schedule_mode": "cohort",
+    "last_checked": "2026-08-28",
+    "next_due": "2027-02-28",
+    "next_due_override": null,
+    "status": "scheduled",
+    "owner": null,
+    "notes": null,
+    "manual_override": false
+  },
+  "b4001928-16c6-4af4-a5aa-a55fc65277fe": {
+    "uuid": "b4001928-16c6-4af4-a5aa-a55fc65277fe",
+    "name": "NMotion (powered by gener8tor)",
+    "recommended_cadence_days": 180,
+    "cadence_basis": "cohort-aligned: end of October (~12/yr cohort cycle)",
+    "schedule_mode": "cohort",
+    "last_checked": "2026-08-28",
+    "next_due": "2026-10-31",
+    "next_due_override": null,
+    "status": "scheduled",
+    "owner": null,
+    "notes": null,
+    "manual_override": false
+  }
+}

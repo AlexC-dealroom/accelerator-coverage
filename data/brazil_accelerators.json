@@ -1,0 +1,810 @@
+[
+  {
+    "uuid": "8569bf13-3ff0-4bf5-9aae-912df563a635",
+    "name": "ACE Startups",
+    "city": "São Paulo",
+    "website": "https://acestartups.com.br/",
+    "domain": "acestartups.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 110,
+    "last_round_year": 2024,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/ace_startups_aceleratech_"
+  },
+  {
+    "uuid": "1ab6a0d1-ab98-41fc-980f-2114f934452b",
+    "name": "ADIN",
+    "city": "São Paulo",
+    "website": "https://www.adin.com.br",
+    "domain": "adin.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 9,
+    "last_round_year": 2024,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/idinvest"
+  },
+  {
+    "uuid": "ce73c7c1-3d2a-4856-84fe-100d8795362e",
+    "name": "Acelera MGTI",
+    "city": "Belo Horizonte",
+    "website": "http://aceleramgti.com",
+    "domain": "aceleramgti.com",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/acelera_mgti"
+  },
+  {
+    "uuid": "792b898f-6cfd-4101-a8be-af065ba8b0a2",
+    "name": "Acelera Partners",
+    "city": "São Paulo",
+    "website": "http://acelerapartners.com.br/",
+    "domain": "acelerapartners.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 1,
+    "last_round_year": 2015,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/acelera_partners"
+  },
+  {
+    "uuid": "e11286ca-6973-4959-840a-968a00a3e8d9",
+    "name": "Aceleradora de Campinas",
+    "city": "Campinas",
+    "website": "http://cps.softex.br",
+    "domain": "softex.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/aceleradora_de_campinas"
+  },
+  {
+    "uuid": "eb2a9f40-6700-4b74-8a32-20d7041952e8",
+    "name": "AmazonasCap",
+    "city": "São Paulo",
+    "website": "http://amazonascap.com.br",
+    "domain": "amazonascap.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/amazonascap"
+  },
+  {
+    "uuid": "25069d08-3ec1-4af6-8ee9-6b22548a59d0",
+    "name": "Arenahub",
+    "city": "São Paulo",
+    "website": "http://arenahub.com.br",
+    "domain": "arenahub.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 13,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/arenahub"
+  },
+  {
+    "uuid": "1233394b-0412-4e46-a253-84f775c2bb2e",
+    "name": "BIOMAKE",
+    "city": "Brazil",
+    "website": "http://biomake.com.br",
+    "domain": "biomake.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/biomake"
+  },
+  {
+    "uuid": "13385b57-6f73-4cdd-9318-d5ac91d2cecb",
+    "name": "Baita Accelerator",
+    "city": "Campinas",
+    "website": "http://baita.ac",
+    "domain": "baita.ac",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 24,
+    "last_round_year": 2023,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/baita_accelerator",
+    "dealroom_portfolio_source": "production/MCP (2026-08-05)"
+  },
+  {
+    "uuid": "c3ad1e64-27d6-4c19-bdfd-d7cc4102285c",
+    "name": "Be.Here | The Global Advertising Company",
+    "city": "Brazil",
+    "website": "http://behere.com.br",
+    "domain": "behere.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/be_here_the_global_advertising_company"
+  },
+  {
+    "uuid": "f5d66088-68fa-4dab-b9f6-f6cb26cae0bf",
+    "name": "Berrini Ventures",
+    "city": "São Paulo",
+    "website": "http://berriniventures.com",
+    "domain": "berriniventures.com",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/berrini_ventures"
+  },
+  {
+    "uuid": "eb27a0f5-f223-484b-865b-2a214d308806",
+    "name": "Biominas Brasil",
+    "city": "Belo Horizonte",
+    "website": "http://biominas.org.br",
+    "domain": "biominas.org.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 3,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/biominas_brasil"
+  },
+  {
+    "uuid": "efbcf4c6-b2df-40fe-a35d-56349f3e9818",
+    "name": "BiotechTown",
+    "city": "Nova Lima",
+    "website": "https://biotechtown.com/",
+    "domain": "biotechtown.com",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 26,
+    "last_round_year": 2022,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/biotechtown",
+    "dealroom_portfolio_source": "production after portfolio update"
+  },
+  {
+    "uuid": "0bde193c-ede0-4c90-84e2-bace28b60f87",
+    "name": "Bluefields Aceleradora",
+    "city": "Brazil",
+    "website": "https://bluefieldsdev.com",
+    "domain": "bluefieldsdev.com",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/bluefields_aceleradora"
+  },
+  {
+    "uuid": "5514f740-cff0-4858-842f-1dd7c5f22493",
+    "name": "BrazilLAB",
+    "city": "São Paulo",
+    "website": "https://brazillab.org.br/",
+    "domain": "brazillab.org.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/brazillab"
+  },
+  {
+    "uuid": "c9b63b69-66c3-4335-b0e3-1633a5624d11",
+    "name": "BrazilLAB GovTech Seal",
+    "city": "São Paulo",
+    "website": "https://selo.brazillab.org.br/",
+    "domain": "brazillab.org.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/brazillab_govtech_seal"
+  },
+  {
+    "uuid": "880b2612-5183-4a52-9367-5eb42dda293b",
+    "name": "Business Initiative for Equality",
+    "city": "Brazil",
+    "website": "https://iniciativaempresarial.com.br",
+    "domain": "iniciativaempresarial.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/business_initiative_for_equality"
+  },
+  {
+    "uuid": "d1007e85-68ed-4236-a50e-e2c72fd5bbba",
+    "name": "Creative Pack",
+    "city": "São Luís",
+    "website": "https://www.creativepack.org",
+    "domain": "creativepack.org",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/creative_pack"
+  },
+  {
+    "uuid": "5d634b06-d57d-4436-857f-133dcfbb629e",
+    "name": "Darwin Startups",
+    "city": "Florianópolis",
+    "website": "http://darwinstartups.com.br",
+    "domain": "darwinstartups.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 66,
+    "last_round_year": 2024,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/darwin_startups"
+  },
+  {
+    "uuid": "253c01c8-703d-4997-880f-c74738be2080",
+    "name": "EMotion Studios",
+    "city": "Belo Horizonte",
+    "website": "http://www.emotionstudios.com.br",
+    "domain": "emotionstudios.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/emotion_studios"
+  },
+  {
+    "uuid": "a49f4c99-dffa-45b1-a029-75608c193776",
+    "name": "Endeavor Brasil",
+    "city": "Brazil",
+    "website": "http://endeavor.org.br",
+    "domain": "endeavor.org.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 10,
+    "last_round_year": 2024,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/endeavor_promessas"
+  },
+  {
+    "uuid": "c8c2df2a-8e3b-4f8e-a4ee-7993c796b2b9",
+    "name": "Eretz.bio",
+    "city": "São Paulo",
+    "website": "http://eretz.bio",
+    "domain": "eretz.bio",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 1,
+    "last_round_year": 2020,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/eretz_bio"
+  },
+  {
+    "uuid": "e550dfe6-05c9-4c04-a144-412bfe006f6e",
+    "name": "FLAGCX",
+    "city": "São Paulo",
+    "website": "http://flag.cx",
+    "domain": "flag.cx",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 1,
+    "last_round_year": 2019,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/flagcx"
+  },
+  {
+    "uuid": "70fa41a8-b983-4a12-a14c-034a09d11d17",
+    "name": "Fabrica de Startups",
+    "city": "Rio de Janeiro",
+    "website": "http://fabricadestartups.com.br",
+    "domain": "fabricadestartups.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/fabrica_de_startups"
+  },
+  {
+    "uuid": "6446fe94-7763-4a15-b172-56dd791f96f5",
+    "name": "GIGatWORK",
+    "city": "São Paulo",
+    "website": "https://gigat.work/",
+    "domain": "gigat.work",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/gigatwork"
+  },
+  {
+    "uuid": "901020d1-0439-4009-8ef1-a01bbb08b165",
+    "name": "FGV Ventures",
+    "city": "São Paulo",
+    "website": "http://gventures.com.br",
+    "domain": "gventures.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 2,
+    "last_round_year": 2017,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/fgv_ventures_1"
+  },
+  {
+    "uuid": "3c4db1c1-c4ea-47cd-9a18-1e6c1390c0b4",
+    "name": "Gema Ventures",
+    "city": "São Paulo",
+    "website": "http://gemaventures.com",
+    "domain": "gemaventures.com",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 1,
+    "last_round_year": 2015,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/gema_ventures"
+  },
+  {
+    "uuid": "4b087c70-57a6-42d9-ba2b-74cc230ef261",
+    "name": "Grupo Rede+",
+    "city": "Salvador",
+    "website": "http://gruporedemais.com",
+    "domain": "gruporedemais.com",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/grupo_rede_"
+  },
+  {
+    "uuid": "d26ba267-0047-4367-84d7-523df34bd754",
+    "name": "HARDS",
+    "city": "Florianópolis",
+    "website": "http://hards.com.br",
+    "domain": "hards.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 10,
+    "last_round_year": 2022,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/hards"
+  },
+  {
+    "uuid": "f90f7879-5406-4061-939c-cf713ed55bfd",
+    "name": "I9Space",
+    "city": "Brazil",
+    "website": "http://i9space.com.br",
+    "domain": "i9space.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/i9space"
+  },
+  {
+    "uuid": "493e9f43-6658-4a83-a2e0-170b716e6546",
+    "name": "IERA Polo de Oliveira do Bairro",
+    "city": "Salvador",
+    "website": "http://www.cm-olb.pt",
+    "domain": "cm-olb.pt",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/iera_polo_de_oliveira_do_bairro"
+  },
+  {
+    "uuid": "fa7403cf-14b9-4cdb-a5e7-ddf0b1ce0f42",
+    "name": "INCUBATIC",
+    "city": "Recife",
+    "website": "http://incubatic.com.br",
+    "domain": "incubatic.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/incubatic"
+  },
+  {
+    "uuid": "c814edf9-32a1-40a2-847e-dc5315490147",
+    "name": "Ilhahub de Inovação",
+    "city": "São Paulo",
+    "website": "https://ilhahub.com.br/",
+    "domain": "ilhahub.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 8,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/ilhahub_de_inova_o"
+  },
+  {
+    "uuid": "d30fe40b-bf48-4c1f-a2e1-f934cd5f27ff",
+    "name": "Impact Hub Sao Paulo",
+    "city": "São Paulo",
+    "website": "https://saopaulo.impacthub.net/",
+    "domain": "impacthub.net",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 6,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/the_hub_s_o_paulo"
+  },
+  {
+    "uuid": "fa6e3343-cb28-41e2-94a2-21d65c5c7c89",
+    "name": "Inkuba",
+    "city": "São Paulo",
+    "website": "http://inkuba.com.br",
+    "domain": "inkuba.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/inkuba"
+  },
+  {
+    "uuid": "99a15236-5088-4eb0-b6ec-31b3e8f73ea3",
+    "name": "InovaCity",
+    "city": "São Paulo",
+    "website": "http://inovacity.com",
+    "domain": "inovacity.com",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/inovacity"
+  },
+  {
+    "uuid": "ae4744d1-7e47-4f58-9b4d-9c7321979056",
+    "name": "Inovativa Brasil",
+    "city": "Brasilia",
+    "website": "https://inovativa.online",
+    "domain": "inovativa.online",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 345,
+    "last_round_year": 2023,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/inovativa_brasil",
+    "dealroom_portfolio_source": "production after Data Team work"
+  },
+  {
+    "uuid": "dabe9d8c-bb3c-415c-a677-f9957f526ec8",
+    "name": "Kaleydos",
+    "city": "Brazil",
+    "website": "https://kaleydos.com.br",
+    "domain": "kaleydos.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/kaleydos"
+  },
+  {
+    "uuid": "72a8ce1d-99a2-4148-9a5d-3461200faa16",
+    "name": "Lemonade (Accelerator)",
+    "city": "Passos",
+    "website": "http://programalemonade.com.br",
+    "domain": "programalemonade.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/lemonade_accelerator_"
+  },
+  {
+    "uuid": "5caa6d1b-a074-4986-8c7b-336c826bbcf9",
+    "name": "Liga Ventures",
+    "city": "São Paulo",
+    "website": "http://liga.ventures",
+    "domain": "liga.ventures",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 2,
+    "last_round_year": 2019,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/liga_ventures"
+  },
+  {
+    "uuid": "e47353b2-3118-4e02-b7d1-479f5dff4848",
+    "name": "Max Grow",
+    "city": "Brazil",
+    "website": "https://www.maxgrow.com.br",
+    "domain": "maxgrow.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/max_grow"
+  },
+  {
+    "uuid": "3910f194-dec5-4de8-b9ee-4c6fc20de015",
+    "name": "Neo Acelera",
+    "city": "Brazil",
+    "website": "http://neoacelera.com.br",
+    "domain": "neoacelera.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 1,
+    "last_round_year": 2020,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/neo_acelera"
+  },
+  {
+    "uuid": "fd70dfdc-645c-4431-9793-4fb2735f83ae",
+    "name": "Nexus",
+    "city": "São Paulo",
+    "website": "https://pitsjc.org.br/nexus/",
+    "domain": "pitsjc.org.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/nexus_11"
+  },
+  {
+    "uuid": "4239057e-d357-475f-90e0-2658e78368fa",
+    "name": "Organic Exponential Evolution",
+    "city": "Brazil",
+    "website": "https://organica.digital",
+    "domain": "organica.digital",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/organic_exponential_evolution"
+  },
+  {
+    "uuid": "e3875c5e-344a-4f6a-b37b-6f33b1cf190e",
+    "name": "Oxigênio Aceleradora",
+    "city": "São Paulo",
+    "website": "http://oxigenioaceleradora.com.br",
+    "domain": "oxigenioaceleradora.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 5,
+    "last_round_year": 2017,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/oxig_nio_aceleradora"
+  },
+  {
+    "uuid": "6cda81b8-8b3d-4e37-a2da-d21977b6ff29",
+    "name": "PCT Guamá",
+    "city": "Brazil",
+    "website": "http://pctguama.org.br",
+    "domain": "pctguama.org.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/pct_guam_"
+  },
+  {
+    "uuid": "c7a1d976-b678-42c7-af64-4d090c14a861",
+    "name": "Sebrae Catalisa ICT",
+    "city": "Brazil",
+    "website": "https://sebrae.com.br/sites/PortalSebrae/catalisa/ictedital",
+    "domain": "sebrae.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 2,
+    "last_round_year": 2022,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/sebrae_catalisa_ict"
+  },
+  {
+    "uuid": "3f221f38-6df8-438b-8b78-2d942c2e5930",
+    "name": "Novo Seed",
+    "city": "Brumadinho",
+    "website": "http://seed.mg.gov.br",
+    "domain": "seed.mg.gov.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 5,
+    "last_round_year": 2021,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/novo_seed"
+  },
+  {
+    "uuid": "d5cf6ad1-b358-494b-ac80-909dba2f9ef0",
+    "name": "Social Good Brasil",
+    "city": "Florianópolis",
+    "website": "http://socialgoodbrasil.org.br",
+    "domain": "socialgoodbrasil.org.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/social_good_brasil"
+  },
+  {
+    "uuid": "2dbfe8fe-8db6-4d27-bf40-9fe3b4f447ab",
+    "name": "Spacemoon",
+    "city": "Santos",
+    "website": "http://spacemoon.com.br",
+    "domain": "spacemoon.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/spacemoon_1"
+  },
+  {
+    "uuid": "507b8e1c-e333-4968-ba25-7e8eac7800c0",
+    "name": "Startup RIO",
+    "city": "Brazil",
+    "website": "http://startuprio.org",
+    "domain": "startuprio.org",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/startup_rio"
+  },
+  {
+    "uuid": "fdb7e2ee-6e27-41aa-9f8e-56ff11dd86fd",
+    "name": "Supernova",
+    "city": "Curitiba",
+    "website": "http://supernovabr.com",
+    "domain": "supernovabr.com",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 3,
+    "last_round_year": 2021,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/supernova_1"
+  },
+  {
+    "uuid": "a7ce8a14-4383-4c04-a437-249f80e7b57b",
+    "name": "Techmall",
+    "city": "Belo Horizonte",
+    "website": "http://techmallsa.com.br",
+    "domain": "techmallsa.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 1,
+    "last_round_year": 2014,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/techmall"
+  },
+  {
+    "uuid": "24c67a02-ae24-40a6-904d-7c26b33b6db0",
+    "name": "The Jump Brazil",
+    "city": "Recife",
+    "website": "https://hubgoias.org",
+    "domain": "hubgoias.org",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 1,
+    "last_round_year": 2015,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/the_jump_brazil"
+  },
+  {
+    "uuid": "96d3237a-efb8-4cb5-a463-b5019f386546",
+    "name": "The Raja Valley",
+    "city": "Belo Horizonte",
+    "website": "https://rajavalley.com",
+    "domain": "rajavalley.com",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 1,
+    "last_round_year": 2023,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/the_raja_valley"
+  },
+  {
+    "uuid": "881d7a55-666d-4a14-878c-ef60417a3a47",
+    "name": "Tree Labs",
+    "city": "São Paulo",
+    "website": "http://treelabs.com.br",
+    "domain": "treelabs.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/tree_labs"
+  },
+  {
+    "uuid": "9e5a0428-e869-4544-891b-4c72fa2763b0",
+    "name": "TroposLab",
+    "city": "Belo Horizonte",
+    "website": "http://www.troposlab.com/",
+    "domain": "troposlab.com",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 13,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/tropos_lab"
+  },
+  {
+    "uuid": "f89a7699-7455-4ff2-9f35-607e5fe0e7bf",
+    "name": "UNION TEAM - BEASY and ROCKY",
+    "city": "Brazil",
+    "website": "http://uniom.team",
+    "domain": "uniom.team",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/union_team_beasy_and_rocky"
+  },
+  {
+    "uuid": "224ed83e-386b-4452-ab57-9a69eee2bdda",
+    "name": "Webforce Investments",
+    "city": "Porto Feliz",
+    "website": "http://webforce.com.br",
+    "domain": "webforce.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/webforce_investments"
+  },
+  {
+    "uuid": "430be1ae-ee99-40db-bb43-8d06cadcee4d",
+    "name": "Youngworks",
+    "city": "São Paulo",
+    "website": "http://youngworks.nl",
+    "domain": "youngworks.nl",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/youngworks"
+  },
+  {
+    "uuid": "56ea1edb-a4b3-4877-9595-b5103fb3debb",
+    "name": "hub+",
+    "city": "São Paulo",
+    "website": "https://hubmais.org/",
+    "domain": "hubmais.org",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/hub__1"
+  },
+  {
+    "uuid": "8bdfbec8-c908-4ee2-a71d-90dcd14bddef",
+    "name": "iDEXO",
+    "city": "São Paulo",
+    "website": "http://idexo.com.br",
+    "domain": "idexo.com.br",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 3,
+    "last_round_year": 2024,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/idexo_1"
+  },
+  {
+    "uuid": "be76243b-0ca0-47cf-be29-827da28afe71",
+    "name": "Hub Goiás",
+    "city": "Goiânia",
+    "website": "https://hubgoias.org",
+    "domain": "hubgoias.org",
+    "hq_country": "Brazil",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/hub_goi_s",
+    "dealroom_portfolio_source": "production/MCP (2026-08-23)"
+  }
+]

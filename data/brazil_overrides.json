@@ -1,0 +1,12 @@
+{
+  "fa7403cf-14b9-4cdb-a5e7-ddf0b1ce0f42": {
+    "tier": "MAINTAIN",
+    "note": "low activity (~8/yr) — maintenance only",
+    "no_due_date": true
+  },
+  "0bde193c-ede0-4c90-84e2-bace28b60f87": {
+    "tier": "MAINTAIN",
+    "note": "intrapreneurship-led — few external startups to source",
+    "no_due_date": false
+  }
+}

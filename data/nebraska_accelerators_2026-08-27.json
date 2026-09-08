@@ -1,0 +1,86 @@
+{
+  "schema": "accelerator_coverage.accelerators.v1",
+  "state": "Nebraska",
+  "run_date": "2026-08-27",
+  "generated_by": "scarlet-scout",
+  "read_only": true,
+  "count": 3,
+  "accelerators": [
+    {
+      "state": "Nebraska",
+      "accelerator": "NMotion (powered by gener8tor)",
+      "dealroom_profile_url": "https://app.dealroom.co/companies/nmotion",
+      "dealroom_uuid": "b4001928-16c6-4af4-a5aa-a55fc65277fe",
+      "website": "https://www.nmotion.co/",
+      "website_status": "live_and_relevant",
+      "city": "Lincoln",
+      "activity_status": "active",
+      "est_startups_per_year": 12,
+      "dealroom_portfolio_count": 114,
+      "cohort_month": 10,
+      "cohort_timing_type": "demo_day",
+      "next_expected_cohort_date": "2026-11-18",
+      "most_recent_cohort": "Accelerator Fall 2026 (Cohort 22)",
+      "evidence": "$100k/7.5% equity, 6 startups x2 cohorts/yr; Fall 2026 cohort announced, Showcase Nov 18 2026",
+      "evidence_url": "https://siliconprairienews.com/2026/08/nmotion-accelerator-fall-2026-cohort-announced-following-pause-in-programming",
+      "evidence_date": "2026-08",
+      "confidence": "high"
+    },
+    {
+      "state": "Nebraska",
+      "accelerator": "Steelworks Health Accelerator (UNeMed/UNeTech/CQuence Health)",
+      "dealroom_profile_url": "https://app.dealroom.co/investors/steelworks_health_accelerator",
+      "dealroom_uuid": "66e8928a-60ca-4837-a4d0-2bded2376c03",
+      "website": "https://www.unemed.com/steel-works-health-accelerator",
+      "website_status": "live_and_relevant",
+      "city": "Omaha",
+      "activity_status": "active",
+      "est_startups_per_year": 12,
+      "dealroom_portfolio_count": 0,
+      "cohort_month": 2,
+      "cohort_timing_type": "application",
+      "next_expected_cohort_date": "2026 (3rd cohort expected)",
+      "most_recent_cohort": "2nd cohort (applications closed Jul 3 2026); 1st cohort of 6 wrapped Jun 10 2026",
+      "evidence": "Healthtech accelerator, ~16-wk, JV of UNeMed+UNeTech+CQuence Health, SBA-grant funded; renamed from 'The Furnace'; on 2nd cohort. Created in Dealroom 2026-08-27 (manual, Alex).",
+      "evidence_url": "https://siliconprairienews.com/2026/06/applications-open-for-the-second-cohort-of-the-steel-works-health-accelerator/",
+      "evidence_date": "2026-06",
+      "confidence": "high"
+    },
+    {
+      "state": "Nebraska",
+      "accelerator": "MAC Xcelerator (Midlands African Chamber)",
+      "dealroom_profile_url": "https://app.dealroom.co/investors/mac_xcelerator",
+      "dealroom_uuid": "b86f8b8b-0264-4f58-9f02-6d2731ab0131",
+      "website": "https://midlandsafricanchamber.com/mac-xcelerator/",
+      "website_status": "live_and_relevant",
+      "city": "Omaha",
+      "activity_status": "active",
+      "est_startups_per_year": 20,
+      "dealroom_portfolio_count": 0,
+      "cohort_month": 5,
+      "cohort_timing_type": "application",
+      "next_expected_cohort_date": "2027-01 (Spring 2027, ~Nov launch)",
+      "most_recent_cohort": "Fall 2026 cohort (grad Dec 14 2026); Spring 2026 (grad Apr 20 2026)",
+      "evidence": "Biannual 12-wk enterprise accelerator (Spring+Fall), equity-free funding via Pitch Black, NE/IA founders; program of existing Midlands African Chamber. Created in Dealroom 2026-08-27 (manual, Alex).",
+      "evidence_url": "https://midlandsafricanchamber.com/mac-xcelerator/",
+      "evidence_date": "2026-08",
+      "confidence": "high"
+    }
+  ],
+  "excluded": [
+    {
+      "state": "Nebraska",
+      "accelerator": "Nebraska Entrepreneurship Accelerator (UNL Center for Entrepreneurship)",
+      "reason_excluded": "students-only program (must be UNL student), $1k scholarship, no external startups; individual/internal career-development program - out of scope per include/exclude rules",
+      "website": "https://business.unl.edu/student-resources/center-entrepreneurship/student-opportunities/entrepreneurship-accelerator/",
+      "evidence_date": "2025-09"
+    },
+    {
+      "state": "Nebraska",
+      "accelerator": "Techstars Founder Catalyst (Greater Omaha, w/ Open Range)",
+      "reason_excluded": "local chapter of a national program (Techstars) — tracked on the national Dealroom profile, not as a standalone accelerator; out of scope",
+      "website": "https://www.techstars.com/location/omaha",
+      "evidence_date": "2026-07"
+    }
+  ]
+}

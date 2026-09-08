@@ -1,0 +1,398 @@
+[
+  {
+    "name": "INNVO DIGITAL",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2024
+  },
+  {
+    "name": "Investplay",
+    "hq_city": "Belo Horizonte",
+    "status": "operational",
+    "last_round_year": 2023
+  },
+  {
+    "name": "Simplex",
+    "hq_city": "Rio de Janeiro",
+    "status": "operational",
+    "last_round_year": 2023
+  },
+  {
+    "name": "BLOCKBR - DIGITAL ASSETS",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2023
+  },
+  {
+    "name": "1SS BANK",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2023
+  },
+  {
+    "name": "Sup#Pay",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2023
+  },
+  {
+    "name": "Pibi",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2023
+  },
+  {
+    "name": "Quanticpass",
+    "hq_city": "Sorocaba",
+    "status": "operational",
+    "last_round_year": 2023
+  },
+  {
+    "name": "RevPay",
+    "hq_city": "Aquidauana",
+    "status": "operational",
+    "last_round_year": 2022
+  },
+  {
+    "name": "creditares",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2022
+  },
+  {
+    "name": "Yapoli",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2022
+  },
+  {
+    "name": "Beaver",
+    "hq_city": null,
+    "status": "operational",
+    "last_round_year": 2022
+  },
+  {
+    "name": "SenseUp",
+    "hq_city": "Pedro II",
+    "status": "operational",
+    "last_round_year": 2022
+  },
+  {
+    "name": "Deduz",
+    "hq_city": "São José",
+    "status": "operational",
+    "last_round_year": 2022
+  },
+  {
+    "name": "Ponto Facil",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2022
+  },
+  {
+    "name": "Zabit",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2022
+  },
+  {
+    "name": "Finansystech",
+    "hq_city": null,
+    "status": "operational",
+    "last_round_year": 2022
+  },
+  {
+    "name": "Teva Indices",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2022
+  },
+  {
+    "name": "Troco Simples",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2022
+  },
+  {
+    "name": "Hubii",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2022
+  },
+  {
+    "name": "Débito Direto",
+    "hq_city": "Blumenau",
+    "status": "operational",
+    "last_round_year": 2021
+  },
+  {
+    "name": "Giro.Tech",
+    "hq_city": "Curitiba",
+    "status": "operational",
+    "last_round_year": 2021
+  },
+  {
+    "name": "Qgx",
+    "hq_city": "Iperó",
+    "status": "operational",
+    "last_round_year": 2021
+  },
+  {
+    "name": "Evlos",
+    "hq_city": "São Paulo",
+    "status": "low_activity",
+    "last_round_year": 2021
+  },
+  {
+    "name": "Predify",
+    "hq_city": "Mirante do Paranapanema",
+    "status": "acquired",
+    "last_round_year": 2021
+  },
+  {
+    "name": "CondoConta",
+    "hq_city": "Florianópolis",
+    "status": "operational",
+    "last_round_year": 2021
+  },
+  {
+    "name": "Virti",
+    "hq_city": "Cuiabá",
+    "status": "operational",
+    "last_round_year": 2020
+  },
+  {
+    "name": "iBotz",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2020
+  },
+  {
+    "name": "Refinaria de Dados",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2020
+  },
+  {
+    "name": "Data Rudder",
+    "hq_city": "Florianópolis",
+    "status": "acquired",
+    "last_round_year": 2020
+  },
+  {
+    "name": "Openbox",
+    "hq_city": "Florianópolis",
+    "status": "operational",
+    "last_round_year": 2020
+  },
+  {
+    "name": "CashWay",
+    "hq_city": "Florianópolis",
+    "status": "operational",
+    "last_round_year": 2020
+  },
+  {
+    "name": "EcoTrust",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2020
+  },
+  {
+    "name": "Soul",
+    "hq_city": "Porto Alegre",
+    "status": "operational",
+    "last_round_year": 2020
+  },
+  {
+    "name": "Flow Finance",
+    "hq_city": null,
+    "status": "acquired",
+    "last_round_year": 2019
+  },
+  {
+    "name": "Clube do Promotor",
+    "hq_city": null,
+    "status": "operational",
+    "last_round_year": 2019
+  },
+  {
+    "name": "Soul.Med",
+    "hq_city": null,
+    "status": "operational",
+    "last_round_year": 2019
+  },
+  {
+    "name": "Payface",
+    "hq_city": "Florianópolis",
+    "status": "operational",
+    "last_round_year": 2019
+  },
+  {
+    "name": "Payfy",
+    "hq_city": "Florianópolis",
+    "status": "operational",
+    "last_round_year": 2019
+  },
+  {
+    "name": "Nextcode",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2018
+  },
+  {
+    "name": "Receiv",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2018
+  },
+  {
+    "name": "EasyJur",
+    "hq_city": null,
+    "status": "operational",
+    "last_round_year": 2018
+  },
+  {
+    "name": "License Solutions",
+    "hq_city": null,
+    "status": "operational",
+    "last_round_year": 2018
+  },
+  {
+    "name": "PLANIUM",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2018
+  },
+  {
+    "name": "Destra",
+    "hq_city": "Brazil",
+    "status": "operational",
+    "last_round_year": 2018
+  },
+  {
+    "name": "Globalbot",
+    "hq_city": null,
+    "status": "operational",
+    "last_round_year": 2017
+  },
+  {
+    "name": "DriveOn",
+    "hq_city": null,
+    "status": "operational",
+    "last_round_year": 2017
+  },
+  {
+    "name": "EPHealth Primary Care Solution",
+    "hq_city": null,
+    "status": "operational",
+    "last_round_year": 2017
+  },
+  {
+    "name": "PagueVeloz",
+    "hq_city": null,
+    "status": "operational",
+    "last_round_year": 2017
+  },
+  {
+    "name": "Cianove",
+    "hq_city": "São José",
+    "status": "operational",
+    "last_round_year": 2017
+  },
+  {
+    "name": "Horus Aeronaves",
+    "hq_city": "Florianópolis",
+    "status": "operational",
+    "last_round_year": 2017
+  },
+  {
+    "name": "DAYBACK",
+    "hq_city": "Florianópolis",
+    "status": "operational",
+    "last_round_year": 2016
+  },
+  {
+    "name": "Remoty",
+    "hq_city": "Palhoça",
+    "status": "operational",
+    "last_round_year": 2016
+  },
+  {
+    "name": "Jurus",
+    "hq_city": null,
+    "status": "closed",
+    "last_round_year": 2016
+  },
+  {
+    "name": "ExchangeNow",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2016
+  },
+  {
+    "name": "VC-X Solutions",
+    "hq_city": null,
+    "status": "operational",
+    "last_round_year": 2016
+  },
+  {
+    "name": "ParkApp International",
+    "hq_city": "Florianópolis",
+    "status": "operational",
+    "last_round_year": 2015
+  },
+  {
+    "name": "Plurio",
+    "hq_city": null,
+    "status": "operational",
+    "last_round_year": 2015
+  },
+  {
+    "name": "Dia Estúdio",
+    "hq_city": null,
+    "status": "operational",
+    "last_round_year": 2015
+  },
+  {
+    "name": "BemVendi",
+    "hq_city": "Barueri",
+    "status": "operational",
+    "last_round_year": 2015
+  },
+  {
+    "name": "Kuak",
+    "hq_city": null,
+    "status": "operational",
+    "last_round_year": 2015
+  },
+  {
+    "name": "Meetime",
+    "hq_city": "Florianópolis",
+    "status": "acquired",
+    "last_round_year": 2015
+  },
+  {
+    "name": "IPark Brasil",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2015
+  },
+  {
+    "name": "QAMetrik",
+    "hq_city": null,
+    "status": "operational",
+    "last_round_year": 2015
+  },
+  {
+    "name": "OceanDrop",
+    "hq_city": "Balneário Camboriú",
+    "status": "operational",
+    "last_round_year": 2015
+  },
+  {
+    "name": "MindMiners",
+    "hq_city": "São Paulo",
+    "status": "operational",
+    "last_round_year": 2014
+  }
+]

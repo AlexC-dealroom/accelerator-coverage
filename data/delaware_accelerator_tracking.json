@@ -1,0 +1,72 @@
+{
+  "noid-business-on-main-street-accelerator": {
+    "uuid": "noid-business-on-main-street-accelerator",
+    "name": "Business on Main Street Accelerator",
+    "recommended_cadence_days": 180,
+    "cadence_basis": "active target, throughput unknown — semiannual default",
+    "schedule_mode": "cadence",
+    "last_checked": null,
+    "next_due": "2026-09-07",
+    "next_due_override": null,
+    "status": "unmeasured",
+    "owner": null,
+    "notes": null,
+    "manual_override": false
+  },
+  "noid-horn-entrepreneurship-summer-founders": {
+    "uuid": "noid-horn-entrepreneurship-summer-founders",
+    "name": "Horn Entrepreneurship Summer Founders",
+    "recommended_cadence_days": 180,
+    "cadence_basis": "cohort-aligned: end of August (~19/yr cohort cycle)",
+    "schedule_mode": "cohort",
+    "last_checked": null,
+    "next_due": "2027-08-31",
+    "next_due_override": null,
+    "status": "scheduled",
+    "owner": null,
+    "notes": null,
+    "manual_override": false
+  },
+  "4594fe4c-7ecb-41e7-ac77-a847c9a2f4f2": {
+    "uuid": "4594fe4c-7ecb-41e7-ac77-a847c9a2f4f2",
+    "name": "CAFE Fintech Accelerator (Center for Accelerating Financial Equity)",
+    "recommended_cadence_days": 180,
+    "cadence_basis": "cohort-aligned: end of September (~12/yr cohort cycle)",
+    "schedule_mode": "cohort",
+    "last_checked": "2026-09-07",
+    "next_due": "2027-09-30",
+    "next_due_override": null,
+    "status": "scheduled",
+    "owner": null,
+    "notes": null,
+    "manual_override": false
+  },
+  "899b703b-b9f6-4549-b6d0-22912389e10a": {
+    "uuid": "899b703b-b9f6-4549-b6d0-22912389e10a",
+    "name": "The Innovation Space - Science Inc. Accelerator",
+    "recommended_cadence_days": 180,
+    "cadence_basis": "cohort-aligned: end of September (~20/yr cohort cycle)",
+    "schedule_mode": "cohort",
+    "last_checked": "2026-09-07",
+    "next_due": "2027-09-30",
+    "next_due_override": null,
+    "status": "scheduled",
+    "owner": null,
+    "notes": null,
+    "manual_override": false
+  },
+  "abbff219-d27c-45f0-afa4-11dc16aa9115": {
+    "uuid": "abbff219-d27c-45f0-afa4-11dc16aa9115",
+    "name": "Bronze Valley Investment Accelerator Delaware",
+    "recommended_cadence_days": 180,
+    "cadence_basis": "cohort-aligned: end of December (~10/yr cohort cycle)",
+    "schedule_mode": "cohort",
+    "last_checked": "2026-09-07",
+    "next_due": "2026-12-31",
+    "next_due_override": null,
+    "status": "scheduled",
+    "owner": null,
+    "notes": null,
+    "manual_override": false
+  }
+}

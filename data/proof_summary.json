@@ -1,0 +1,79 @@
+{
+  "country": "Brazil",
+  "measured_accelerators": 3,
+  "definitions": {
+    "linkage_coverage": "website company matched to THIS accelerator's Dealroom portfolio",
+    "company_coverage": "website company exists anywhere in Dealroom (band: BR-confident low .. incl. foreign same-name high)"
+  },
+  "pooled": {
+    "website_portfolio": 89,
+    "linked": 22,
+    "present_unlinked_br": 26,
+    "present_unlinked_foreign": 23,
+    "absent": 18,
+    "linkage_coverage_pct": 24.7,
+    "company_coverage_low_pct": 53.9,
+    "company_coverage_high_pct": 79.8
+  },
+  "accelerators": [
+    {
+      "accelerator": "BiotechTown",
+      "website_portfolio": 28,
+      "dealroom_portfolio": 3,
+      "linked": 3,
+      "present_unlinked_br": 9,
+      "present_unlinked_foreign": 9,
+      "absent": 7,
+      "linkage_coverage_pct": 10.7,
+      "company_coverage_low_pct": 42.9,
+      "company_coverage_high_pct": 75.0
+    },
+    {
+      "accelerator": "HARDS",
+      "website_portfolio": 27,
+      "dealroom_portfolio": 23,
+      "linked": 18,
+      "present_unlinked_br": 2,
+      "present_unlinked_foreign": 3,
+      "absent": 4,
+      "linkage_coverage_pct": 66.7,
+      "company_coverage_low_pct": 74.1,
+      "company_coverage_high_pct": 85.2
+    },
+    {
+      "accelerator": "Baita Accelerator",
+      "website_portfolio": 34,
+      "dealroom_portfolio": 4,
+      "linked": 1,
+      "present_unlinked_br": 15,
+      "present_unlinked_foreign": 11,
+      "absent": 7,
+      "linkage_coverage_pct": 2.9,
+      "company_coverage_low_pct": 47.1,
+      "company_coverage_high_pct": 79.4
+    }
+  ],
+  "sample_status": {
+    "measured_text": [
+      "HARDS",
+      "BiotechTown",
+      "Baita Accelerator"
+    ],
+    "logo_wall_needs_ocr": [
+      "Darwin Startups"
+    ],
+    "directory_crawl_needed": [
+      "Endeavor Brasil (450+)"
+    ],
+    "site_down": [
+      "Inovativa Brasil (electoral suspension)",
+      "Seed (404)"
+    ],
+    "stale_or_wrong_website": [
+      "ACE Startups (gambling site)",
+      "Supernova (telecom)",
+      "iDEXO (->TOTVS)",
+      "ADIN (consultancy)"
+    ]
+  }
+}

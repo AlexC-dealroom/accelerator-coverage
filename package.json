@@ -1,0 +1,22 @@
+{
+  "name": "accelerator-coverage",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Assess and improve Dealroom's coverage of accelerator portfolios in South America.",
+  "scripts": {
+    "sanity": "tsx src/dealroom.ts",
+    "inventory": "tsx src/inventory.ts"
+  },
+  "dependencies": {
+    "axios": "^1.7.0",
+    "dotenv": "^16.4.0",
+    "simple-oauth2": "^5.1.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "@types/simple-oauth2": "^5.0.7",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}

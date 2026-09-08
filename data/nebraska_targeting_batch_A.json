@@ -1,0 +1,44 @@
+[
+  {
+    "name": "NMotion (powered by gener8tor)",
+    "uuid": "b4001928-16c6-4af4-a5aa-a55fc65277fe",
+    "website": "https://www.nmotion.co/",
+    "website_status": "live_and_relevant",
+    "is_accelerator": true,
+    "activity_status": "active",
+    "cohort_throughput_estimate": 12,
+    "website_matches_dealroom": true,
+    "evidence": "$100k/7.5% equity, 6 startups x2 cohorts/yr; Fall 2026 cohort announced, Showcase Nov 18 2026",
+    "evidence_url": "https://siliconprairienews.com/2026/08/nmotion-accelerator-fall-2026-cohort-announced-following-pause-in-programming",
+    "evidence_date": "2026-08",
+    "confidence": "high"
+  },
+  {
+    "name": "Steelworks Health Accelerator (UNeMed/UNeTech/CQuence Health)",
+    "uuid": "66e8928a-60ca-4837-a4d0-2bded2376c03",
+    "website": "https://www.unemed.com/steel-works-health-accelerator",
+    "website_status": "live_and_relevant",
+    "is_accelerator": true,
+    "activity_status": "active",
+    "cohort_throughput_estimate": 12,
+    "website_matches_dealroom": true,
+    "evidence": "Healthtech accelerator, ~16-wk, JV of UNeMed+UNeTech+CQuence Health, SBA-grant funded; renamed from 'The Furnace'; on 2nd cohort. Created in Dealroom 2026-08-27 (manual, Alex).",
+    "evidence_url": "https://siliconprairienews.com/2026/06/applications-open-for-the-second-cohort-of-the-steel-works-health-accelerator/",
+    "evidence_date": "2026-06",
+    "confidence": "high"
+  },
+  {
+    "name": "MAC Xcelerator (Midlands African Chamber)",
+    "uuid": "b86f8b8b-0264-4f58-9f02-6d2731ab0131",
+    "website": "https://midlandsafricanchamber.com/mac-xcelerator/",
+    "website_status": "live_and_relevant",
+    "is_accelerator": true,
+    "activity_status": "active",
+    "cohort_throughput_estimate": 20,
+    "website_matches_dealroom": true,
+    "evidence": "Biannual 12-wk enterprise accelerator (Spring+Fall), equity-free funding via Pitch Black, NE/IA founders; program of existing Midlands African Chamber. Created in Dealroom 2026-08-27 (manual, Alex).",
+    "evidence_url": "https://midlandsafricanchamber.com/mac-xcelerator/",
+    "evidence_date": "2026-08",
+    "confidence": "high"
+  }
+]

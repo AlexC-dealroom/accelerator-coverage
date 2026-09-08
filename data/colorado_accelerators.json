@@ -1,0 +1,348 @@
+[
+  {
+    "uuid": "12c2f3ab-3b0d-4667-b979-1afa09830614",
+    "name": "Telluride Venture Network",
+    "city": "Telluride",
+    "website": "https://tellurideventurenetwork.com/",
+    "domain": "tellurideventurenetwork.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 48,
+    "last_round_year": 2025,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/telluride_venture_network"
+  },
+  {
+    "uuid": "27ca6254-a2d1-419b-b048-a86fb138c909",
+    "name": "Catalyst Accelerator",
+    "city": "Colorado Springs",
+    "website": "https://catalystaccelerator.space/",
+    "domain": "catalystaccelerator.space",
+    "hq_country": "United States",
+    "dealroom_portfolio": 19,
+    "last_round_year": 2024,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/catalyst_accelerator"
+  },
+  {
+    "uuid": "9b0debdb-64a8-44ce-9083-d7c588712a90",
+    "name": "Third Derivative",
+    "city": "Denver",
+    "website": "https://third-derivative.org/",
+    "domain": "third-derivative.org",
+    "hq_country": "United States",
+    "dealroom_portfolio": 314,
+    "last_round_year": 2025,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/third_derivative"
+  },
+  {
+    "uuid": "14388f21-6c86-4aa0-8312-2bb8db5febb8",
+    "name": "CanopyBoulder",
+    "city": "Boulder",
+    "website": "http://www.canopyboulder.com/",
+    "domain": "canopyboulder.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 44,
+    "last_round_year": 2019,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/canopyboulder"
+  },
+  {
+    "uuid": "8382fff0-79a1-498e-a210-d8ee276acc9e",
+    "name": "Fulcrum Venture Accelerator",
+    "city": "Boulder",
+    "website": "http://fulcrumventureaccelerator.com",
+    "domain": "fulcrumventureaccelerator.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 93,
+    "last_round_year": 2024,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/fulcrum_venture_accelerator"
+  },
+  {
+    "uuid": "5cdf7d82-05f5-4564-bc85-b87d12d08c89",
+    "name": "CatalyzeCU",
+    "city": "Boulder",
+    "website": "http://catalyzecu.com",
+    "domain": "catalyzecu.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 27,
+    "last_round_year": 2017,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/catalyzecu"
+  },
+  {
+    "uuid": "37f89dbb-d7f6-4160-a9ec-3ddcce8546c0",
+    "name": "Unreasonable at Sea",
+    "city": "Boulder",
+    "website": "http://unreasonableatsea.org",
+    "domain": "unreasonableatsea.org",
+    "hq_country": "United States",
+    "dealroom_portfolio": 10,
+    "last_round_year": null,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/unreasonable_at_sea"
+  },
+  {
+    "uuid": "d1a8f8cb-3d39-4c89-afa0-81aed02ffb53",
+    "name": "Innosphere",
+    "city": "Fort Collins",
+    "website": "https://innosphereventures.org",
+    "domain": "innosphereventures.org",
+    "hq_country": "United States",
+    "dealroom_portfolio": 44,
+    "last_round_year": 2025,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/innosphere_4"
+  },
+  {
+    "uuid": "d2b6df1b-585a-4049-b2d8-513138db3a7e",
+    "name": "Startup Colorado",
+    "city": "Durango",
+    "website": "http://startupcolorado.org",
+    "domain": "startupcolorado.org",
+    "hq_country": "United States",
+    "dealroom_portfolio": 21,
+    "last_round_year": 2025,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/startup_colorado_1"
+  },
+  {
+    "uuid": "2137da07-0c59-4f60-b4d6-10e115a33439",
+    "name": "LabStart",
+    "city": "Denver",
+    "website": "https://labstart.co",
+    "domain": "labstart.co",
+    "hq_country": "United States",
+    "dealroom_portfolio": 15,
+    "last_round_year": 2024,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/labstart_1"
+  },
+  {
+    "uuid": "1ffc9769-20ea-4dd9-b670-9dba7c17286d",
+    "name": "London Trust Media",
+    "city": "Denver",
+    "website": "http://londontrustmedia.com",
+    "domain": "londontrustmedia.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 1,
+    "last_round_year": 2018,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/london_trust_media"
+  },
+  {
+    "uuid": "5dafcdca-55df-4119-b504-86368991b87c",
+    "name": "Global Venture Network",
+    "city": "Denver",
+    "website": "https://www.globalventurenetwork.com/",
+    "domain": "globalventurenetwork.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/global_venture_network"
+  },
+  {
+    "uuid": "14a1fd22-73c2-4707-bf10-b1a6fa524122",
+    "name": "Techstars Workforce Development Accelerator",
+    "city": "Boulder",
+    "website": null,
+    "domain": null,
+    "hq_country": "United States",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/techstars_workforce_development_accelerator"
+  },
+  {
+    "uuid": "d92b6fa6-dfb6-48d4-967d-ecf958a3ff0b",
+    "name": "Mission Zero.",
+    "city": "Sunset",
+    "website": "https://missionzero.io/",
+    "domain": "missionzero.io",
+    "hq_country": "United States",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/mission_zero_"
+  },
+  {
+    "uuid": "5eb17c52-3662-45b7-b115-73a4e6532dcb",
+    "name": "Story Stock Exchange",
+    "city": "Boulder",
+    "website": "http://storystockexchange.com",
+    "domain": "storystockexchange.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/story_stock_exchange"
+  },
+  {
+    "uuid": "57a9d3f5-84dc-454c-b69f-57bb51af483d",
+    "name": "29 South Co",
+    "city": "Greenwood Village",
+    "website": "http://29southco.com",
+    "domain": "29southco.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/29_south_co"
+  },
+  {
+    "uuid": "d47a8545-da6c-414c-ae62-7a4350eaa207",
+    "name": "Colorado Center for Innovation in Community Capital",
+    "city": "Brighton",
+    "website": "http://cc4icc.com",
+    "domain": "cc4icc.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/colorado_center_for_innovation_in_community_capital"
+  },
+  {
+    "uuid": "d4605982-a372-4350-805a-3fc9345347d3",
+    "name": "Innovation Center of the Rockies",
+    "city": "Boulder",
+    "website": "http://innovationcenteroftherockies.com",
+    "domain": "innovationcenteroftherockies.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/innovation_center_of_the_rockies"
+  },
+  {
+    "uuid": "5ca9eca4-3584-4e98-9f7b-2e481c7a01fc",
+    "name": "UpRamp",
+    "city": "Boulder",
+    "website": "https://www.upramp.com/",
+    "domain": "upramp.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/upramp"
+  },
+  {
+    "uuid": "b0d3998b-c584-4b90-adf2-4e050883301d",
+    "name": "Handshakin Pre-Accelerator",
+    "city": "Denver",
+    "website": "http://handshakin.com",
+    "domain": "handshakin.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/handshakin_pre_accelerator"
+  },
+  {
+    "uuid": "0d1a8cde-92fc-4f2b-888a-79a16dac76cd",
+    "name": "Info Media",
+    "city": "Loveland",
+    "website": "http://infomediainc.com",
+    "domain": "infomediainc.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/info_media"
+  },
+  {
+    "uuid": "8393a7e9-9fe5-4275-8cc7-6bf3f5b8a064",
+    "name": "The Warehouse Business Accelerator",
+    "city": "Loveland",
+    "website": "http://warehouseinnovation.com",
+    "domain": "warehouseinnovation.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 22,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/the_warehouse_business_accelerator"
+  },
+  {
+    "uuid": "6699558a-d246-4d3d-941b-51e8e6c63c39",
+    "name": "Denver Accelerator",
+    "city": "Denver",
+    "website": "http://denveraccelerator.com",
+    "domain": "denveraccelerator.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/denver_accelerator"
+  },
+  {
+    "uuid": "9e9d49a6-64df-4958-a1cd-7b7e00ec10b9",
+    "name": "Inside Sales Bootcamp",
+    "city": "Boulder",
+    "website": "http://insidesalesbootcamp.com",
+    "domain": "insidesalesbootcamp.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/inside_sales_bootcamp"
+  },
+  {
+    "uuid": "089b1ea6-475d-4b8b-8ce6-66427f5ad856",
+    "name": "The Business Incubator Center",
+    "city": "Grand Junction",
+    "website": "http://gjincubator.org",
+    "domain": "gjincubator.org",
+    "hq_country": "United States",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/the_business_incubator_center"
+  },
+  {
+    "uuid": "ea4c13a4-4401-46d3-b548-f479910a66f9",
+    "name": "SecureSet Accelerator",
+    "city": "Denver",
+    "website": "http://securesetaccelerator.com",
+    "domain": "securesetaccelerator.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/secureset_accelerator"
+  },
+  {
+    "uuid": "9a38633b-8fd9-414b-b31f-b2b1c2bdded7",
+    "name": "CanopyBoulder 2016",
+    "city": "Boulder",
+    "website": "http://canopyboulder.com",
+    "domain": "canopyboulder.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [],
+    "dealroom_url": "https://app.dealroom.co/investors/canopyboulder_2016"
+  }
+]

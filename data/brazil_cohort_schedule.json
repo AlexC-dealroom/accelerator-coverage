@@ -1,0 +1,56 @@
+{
+  "0bde193c-ede0-4c90-84e2-bace28b60f87": {
+    "name": "Bluefields Aceleradora",
+    "cohort_month": 3,
+    "basis": "discovery cohort_source (months seen: [3])",
+    "manual": false
+  },
+  "c8c2df2a-8e3b-4f8e-a4ee-7993c796b2b9": {
+    "name": "Eretz.bio",
+    "cohort_month": 2,
+    "basis": "evidence_date 2026-02",
+    "manual": false
+  },
+  "eb27a0f5-f223-484b-865b-2a214d308806": {
+    "name": "Biominas Brasil",
+    "cohort_month": 8,
+    "basis": "discovery cohort_source (months seen: [8])",
+    "manual": false
+  },
+  "901020d1-0439-4009-8ef1-a01bbb08b165": {
+    "name": "FGV Ventures",
+    "cohort_month": 7,
+    "basis": "evidence_date 2026-07",
+    "manual": false
+  },
+  "e3875c5e-344a-4f6a-b37b-6f33b1cf190e": {
+    "name": "Oxigênio Aceleradora",
+    "cohort_month": 2,
+    "basis": "discovery cohort_source (months seen: [2])",
+    "manual": false
+  },
+  "9e5a0428-e869-4544-891b-4c72fa2763b0": {
+    "name": "TroposLab",
+    "cohort_month": 6,
+    "basis": "evidence_date 2026-06",
+    "manual": false
+  },
+  "ae4744d1-7e47-4f58-9b4d-9c7321979056": {
+    "name": "Inovativa Brasil",
+    "cohort_month": 5,
+    "basis": "evidence_date 2026-05",
+    "manual": false
+  },
+  "d30fe40b-bf48-4c1f-a2e1-f934cd5f27ff": {
+    "name": "Impact Hub Sao Paulo",
+    "cohort_month": 3,
+    "basis": "discovery cohort_source (months seen: [3])",
+    "manual": false
+  },
+  "5d634b06-d57d-4436-857f-133dcfbb629e": {
+    "name": "Darwin Startups",
+    "cohort_month": 3,
+    "basis": "evidence_date 2024-03",
+    "manual": false
+  }
+}

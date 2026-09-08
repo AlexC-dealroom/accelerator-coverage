@@ -1,0 +1,166 @@
+{
+  "website_domains": [
+    "brisa.tech",
+    "connectdata.net",
+    "duelaser.com",
+    "favotecnologia.com.br",
+    "operadados.com",
+    "oihandover.com",
+    "neokohm.com",
+    "alben.life",
+    "harpia.tec.br",
+    "lastro.net",
+    "tribuzana.com",
+    "corsync.com.br",
+    "mutualizo.com.br",
+    "pecsmart.com.br",
+    "datarudder.com",
+    "hence-analytics.com",
+    "payface.com.br",
+    "equilibriumsc.com",
+    "4intelligence.ai",
+    "investplay.com.br",
+    "multiplica.me",
+    "ubivis.io",
+    "bitenergy.com.br",
+    "use-move.com",
+    "moyaaero.com",
+    "yaktractors.com"
+  ],
+  "linked": [
+    [
+      "brisa.tech",
+      "Brisa Robotica",
+      "Brazil"
+    ],
+    [
+      "connectdata.net",
+      "ConnectData",
+      "Brazil"
+    ],
+    [
+      "duelaser.com",
+      "Due Laser",
+      "Brazil"
+    ],
+    [
+      "favotecnologia.com.br",
+      "Favo Tecnologia",
+      "Brazil"
+    ],
+    [
+      "oihandover.com",
+      "Oihandover",
+      "Brazil"
+    ],
+    [
+      "neokohm.com",
+      "NEOKOHM Inteligência Eletrônica",
+      "Brazil"
+    ],
+    [
+      "harpia.tec.br",
+      "Harpia Harpyja Soluões Tecnológicas A",
+      null
+    ],
+    [
+      "tribuzana.com",
+      "Tribuzana",
+      "Brazil"
+    ],
+    [
+      "pecsmart.com.br",
+      "PecSmart",
+      "Brazil"
+    ],
+    [
+      "datarudder.com",
+      "Data Rudder",
+      "Brazil"
+    ],
+    [
+      "hence-analytics.com",
+      "Hence Analytics",
+      "Brazil"
+    ],
+    [
+      "equilibriumsc.com",
+      "Equilibrium",
+      "Brazil"
+    ],
+    [
+      "4intelligence.ai",
+      "4intelligence",
+      "Brazil"
+    ],
+    [
+      "investplay.com.br",
+      "Investplay",
+      "Brazil"
+    ],
+    [
+      "ubivis.io",
+      "Ubivis",
+      "Brazil"
+    ],
+    [
+      "bitenergy.com.br",
+      "Bit Energy",
+      null
+    ],
+    [
+      "use-move.com",
+      "movE",
+      "Brazil"
+    ],
+    [
+      "moyaaero.com",
+      "MOYA AERO, Inc.",
+      "Brazil"
+    ],
+    [
+      "yaktractors.com",
+      "YAK Tratores Elétricos",
+      "Brazil"
+    ]
+  ],
+  "unlinked": [
+    [
+      "lastro.net",
+      "LASTRO",
+      null
+    ],
+    [
+      "payface.com.br",
+      "Payface",
+      "Brazil"
+    ]
+  ],
+  "absent": [
+    [
+      "operadados.com",
+      null,
+      null
+    ],
+    [
+      "alben.life",
+      null,
+      null
+    ],
+    [
+      "corsync.com.br",
+      null,
+      null
+    ],
+    [
+      "mutualizo.com.br",
+      null,
+      null
+    ],
+    [
+      "multiplica.me",
+      null,
+      null
+    ]
+  ]
+}

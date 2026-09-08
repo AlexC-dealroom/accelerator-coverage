@@ -1,0 +1,89 @@
+{
+  "schema": "accelerator_coverage.participants.v1",
+  "state": "Nebraska",
+  "run_date": "2026-08-27",
+  "generated_by": "scarlet-scout",
+  "read_only": true,
+  "note": "Participants captured for NMotion (flagship findable roster). Techstars/Steelworks/MAC-X do not publish a full named cohort roster with company websites; rosters not padded. proposed_action values are PROPOSALS only - no Dealroom writes made.",
+  "count": 6,
+  "participants": [
+    {
+      "accelerator": "NMotion",
+      "company_name": "Borrow Luxury",
+      "website": "https://www.borrow-luxury.com/",
+      "linkedin": "https://www.linkedin.com/company/borrow-luxury",
+      "dealroom_verdict": "absent",
+      "dealroom_url": "",
+      "dealroom_uuid": "",
+      "proposed_action": "create_new",
+      "cohort_source": "NMotion Accelerator Fall 2025 (Cohort 21)",
+      "confidence": "high",
+      "notes": "Tennessee-based; no Dealroom domain match"
+    },
+    {
+      "accelerator": "NMotion",
+      "company_name": "Merchcast",
+      "website": "https://www.merchcast.com/",
+      "linkedin": "https://www.linkedin.com/company/merchcast",
+      "dealroom_verdict": "in_dr_unlinked",
+      "dealroom_url": "https://app.dealroom.co/companies/merchcast",
+      "dealroom_uuid": "c4c56555-33cd-4e21-ac13-c409f032b2dd",
+      "proposed_action": "link_existing",
+      "cohort_source": "NMotion Accelerator Fall 2025 (Cohort 21)",
+      "confidence": "high",
+      "notes": "Domain-exact match; NOT in NMotion portfolio -> propose link"
+    },
+    {
+      "accelerator": "NMotion",
+      "company_name": "STUs",
+      "website": "https://www.stuskitchen.com/",
+      "linkedin": "",
+      "dealroom_verdict": "absent",
+      "dealroom_url": "",
+      "dealroom_uuid": "",
+      "proposed_action": "create_new",
+      "cohort_source": "NMotion Accelerator Fall 2025 (Cohort 21)",
+      "confidence": "high",
+      "notes": "Cocktail concentrates; no Dealroom domain match on stuskitchen.com"
+    },
+    {
+      "accelerator": "NMotion",
+      "company_name": "The Pennycress Company",
+      "website": "https://www.thepennycresscompany.com/",
+      "linkedin": "https://www.linkedin.com/company/the-pennycress-company",
+      "dealroom_verdict": "in_dr_unlinked",
+      "dealroom_url": "https://app.dealroom.co/companies/the_pennycress_company",
+      "dealroom_uuid": "a866f15f-5173-467f-adbd-e32e1fa5a797",
+      "proposed_action": "link_existing",
+      "cohort_source": "NMotion Accelerator Fall 2025 (Cohort 21)",
+      "confidence": "high",
+      "notes": "Domain-exact match; NOT in NMotion portfolio -> propose link"
+    },
+    {
+      "accelerator": "NMotion",
+      "company_name": "Total Analysis",
+      "website": "https://totalanalysisusa.com/",
+      "linkedin": "https://www.linkedin.com/company/total-analysis-usa",
+      "dealroom_verdict": "absent",
+      "dealroom_url": "",
+      "dealroom_uuid": "",
+      "proposed_action": "create_new",
+      "cohort_source": "NMotion Accelerator Fall 2025 (Cohort 21)",
+      "confidence": "high",
+      "notes": "Biosurveillance; no Dealroom domain match on totalanalysisusa.com"
+    },
+    {
+      "accelerator": "NMotion",
+      "company_name": "ViaSight",
+      "website": "https://www.viasight.ai/",
+      "linkedin": "https://www.linkedin.com/company/viasight",
+      "dealroom_verdict": "in_dr_unlinked",
+      "dealroom_url": "https://app.dealroom.co/companies/viasight",
+      "dealroom_uuid": "e1bf8a4a-fd98-4c73-be0f-de271c91252d",
+      "proposed_action": "link_existing",
+      "cohort_source": "NMotion Accelerator Fall 2025 (Cohort 21)",
+      "confidence": "high",
+      "notes": "Minnesota-based; domain-exact match; NOT in NMotion portfolio -> propose link"
+    }
+  ]
+}
