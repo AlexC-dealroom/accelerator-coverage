@@ -1,32 +1,4 @@
 {
-  "488d9510-d9ef-4d83-9d0e-63aa601629dc": {
-    "uuid": "488d9510-d9ef-4d83-9d0e-63aa601629dc",
-    "name": "NXTUS / NXTSTAGE Startup Programs",
-    "recommended_cadence_days": 120,
-    "cadence_basis": "cohort-aligned: end of July (~40/yr cohort cycle)",
-    "schedule_mode": "cohort",
-    "last_checked": "2026-09-04",
-    "next_due": "2027-07-31",
-    "next_due_override": null,
-    "status": "scheduled",
-    "owner": null,
-    "notes": null,
-    "manual_override": false
-  },
-  "4c571985-4056-48cf-8fc0-bccf39842be1": {
-    "uuid": "4c571985-4056-48cf-8fc0-bccf39842be1",
-    "name": "ACCEL-KS at Groover Labs",
-    "recommended_cadence_days": 180,
-    "cadence_basis": "cohort-aligned: end of June (~25/yr cohort cycle)",
-    "schedule_mode": "cohort",
-    "last_checked": "2026-09-04",
-    "next_due": "2027-06-30",
-    "next_due_override": null,
-    "status": "scheduled",
-    "owner": null,
-    "notes": null,
-    "manual_override": false
-  },
   "noid-k-state-center-for-the-advancement-of-entrepreneurship-accelerator-program": {
     "uuid": "noid-k-state-center-for-the-advancement-of-entrepreneurship-accelerator-program",
     "name": "K-State Center for the Advancement of Entrepreneurship - Accelerator Program",
@@ -41,14 +13,28 @@
     "notes": null,
     "manual_override": false
   },
-  "878c740f-4862-42a0-b715-296ce528b436": {
-    "uuid": "878c740f-4862-42a0-b715-296ce528b436",
-    "name": "ACCEL-KS at KU Innovation Park",
+  "488d9510-d9ef-4d83-9d0e-63aa601629dc": {
+    "uuid": "488d9510-d9ef-4d83-9d0e-63aa601629dc",
+    "name": "NXTUS / NXTSTAGE Startup Programs",
     "recommended_cadence_days": 180,
-    "cadence_basis": "cohort-aligned: end of February (~16/yr cohort cycle)",
+    "cadence_basis": "cohort-aligned: end of July (~40/yr cohort cycle)",
     "schedule_mode": "cohort",
-    "last_checked": "2026-09-04",
-    "next_due": "2027-02-28",
+    "last_checked": "2026-09-09",
+    "next_due": "2027-07-31",
+    "next_due_override": null,
+    "status": "scheduled",
+    "owner": null,
+    "notes": null,
+    "manual_override": false
+  },
+  "accel_ks": {
+    "uuid": "accel_ks",
+    "name": "ACCEL-KS",
+    "recommended_cadence_days": 180,
+    "cadence_basis": "cohort-aligned: end of November (~40/yr cohort cycle)",
+    "schedule_mode": "cohort",
+    "last_checked": "2026-09-09",
+    "next_due": "2026-11-30",
     "next_due_override": null,
     "status": "scheduled",
     "owner": null,

@@ -1,0 +1,100 @@
+[
+  {
+    "uuid": "47727001-f41e-44ae-b29e-781cd4bfcd01",
+    "name": "Michigan Founders Fund Pre-Accelerator (MFFPA) powered by gener8tor",
+    "city": "Detroit",
+    "website": "https://michiganfoundersfund.org/pre-accelerator/",
+    "domain": "michiganfoundersfund.org",
+    "hq_country": "United States",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/michigan_founders_fund"
+  },
+  {
+    "uuid": "cdc73a63-3798-40aa-af58-39938b095b7a",
+    "name": "MSU Research Foundation Conquer Accelerator",
+    "city": "East Lansing",
+    "website": "https://msufoundation.org/conquer-accelerator/",
+    "domain": "msufoundation.org",
+    "hq_country": "United States",
+    "dealroom_portfolio": 90,
+    "last_round_year": null,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/conquer_accelerator_michigan_state_university"
+  },
+  {
+    "uuid": "5da88d78-ca52-47d0-9b6c-928537e1c480",
+    "name": "Desai Accelerator",
+    "city": "Ann Arbor",
+    "website": "https://www.desaiaccelerator.com/startup-accelerator",
+    "domain": "desaiaccelerator.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 24,
+    "last_round_year": null,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/desai_accelerator"
+  },
+  {
+    "uuid": "3e98eeeb-a747-4f83-b512-26ee84a9bb3d",
+    "name": "Centrepolis Accelerator - I2P HardTech Accelerator",
+    "city": "Detroit",
+    "website": "https://www.centrepolisaccelerator.com/Programs/Idea-to-Product-HardTech-Accelerator",
+    "domain": "centrepolisaccelerator.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 2,
+    "last_round_year": null,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/centrepolis_accelerator"
+  },
+  {
+    "uuid": "ff6da555-524e-42fd-acd2-06b24a6abfda",
+    "name": "AMMP Accelerator (MTEC SmartZone)",
+    "city": "Houghton",
+    "website": "https://www.ammpaccelerator.com/",
+    "domain": "ammpaccelerator.com",
+    "hq_country": "United States",
+    "dealroom_portfolio": 0,
+    "last_round_year": null,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": "https://app.dealroom.co/investors/mtec_smartzone"
+  },
+  {
+    "uuid": "noid-ann-arbor-spark-entrepreneur-boot-camp",
+    "name": "Ann Arbor SPARK Entrepreneur Boot Camp",
+    "city": "Ann Arbor",
+    "website": "https://annarborusa.org/spark-services/startup-services/startup-acceleration/",
+    "domain": "annarborusa.org",
+    "hq_country": "United States",
+    "dealroom_portfolio": null,
+    "last_round_year": null,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": null
+  },
+  {
+    "uuid": "noid-um-accelerate-blue-foundry",
+    "name": "UM Accelerate Blue Foundry",
+    "city": "Ann Arbor",
+    "website": "https://innovationpartnerships.umich.edu/accelerate-blue-foundry/",
+    "domain": "innovationpartnerships.umich.edu",
+    "hq_country": "United States",
+    "dealroom_portfolio": null,
+    "last_round_year": null,
+    "investor_types": [
+      "accelerator"
+    ],
+    "dealroom_url": null
+  }
+]

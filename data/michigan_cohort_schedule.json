@@ -1,0 +1,44 @@
+{
+  "47727001-f41e-44ae-b29e-781cd4bfcd01": {
+    "name": "Michigan Founders Fund Pre-Accelerator (MFFPA) powered by gener8tor",
+    "cohort_month": 9,
+    "basis": "scarlet scout (cohort)",
+    "manual": false
+  },
+  "cdc73a63-3798-40aa-af58-39938b095b7a": {
+    "name": "MSU Research Foundation Conquer Accelerator",
+    "cohort_month": 2,
+    "basis": "scarlet scout (cohort)",
+    "manual": false
+  },
+  "5da88d78-ca52-47d0-9b6c-928537e1c480": {
+    "name": "Desai Accelerator",
+    "cohort_month": 6,
+    "basis": "scarlet scout (cohort)",
+    "manual": false
+  },
+  "3e98eeeb-a747-4f83-b512-26ee84a9bb3d": {
+    "name": "Centrepolis Accelerator - I2P HardTech Accelerator",
+    "cohort_month": 11,
+    "basis": "scarlet scout (cohort)",
+    "manual": false
+  },
+  "ff6da555-524e-42fd-acd2-06b24a6abfda": {
+    "name": "AMMP Accelerator (MTEC SmartZone)",
+    "cohort_month": 5,
+    "basis": "scarlet scout (cohort)",
+    "manual": false
+  },
+  "noid-ann-arbor-spark-entrepreneur-boot-camp": {
+    "name": "Ann Arbor SPARK Entrepreneur Boot Camp",
+    "cohort_month": 12,
+    "basis": "scarlet scout (cohort)",
+    "manual": false
+  },
+  "noid-um-accelerate-blue-foundry": {
+    "name": "UM Accelerate Blue Foundry",
+    "cohort_month": 4,
+    "basis": "scarlet scout (cohort)",
+    "manual": false
+  }
+}

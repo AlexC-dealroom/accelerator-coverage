@@ -1,15 +1,9 @@
 {
-  "878c740f-4862-42a0-b715-296ce528b436": {
-    "name": "ACCEL-KS at KU Innovation Park",
-    "cohort_month": 2,
-    "basis": "scarlet scout (cohort)",
-    "manual": false
-  },
-  "4c571985-4056-48cf-8fc0-bccf39842be1": {
-    "name": "ACCEL-KS at Groover Labs",
-    "cohort_month": 6,
-    "basis": "scarlet scout (cohort)",
-    "manual": false
+  "accel_ks": {
+    "name": "ACCEL-KS",
+    "cohort_month": 11,
+    "basis": "Year-2 apps close 30 Sep 2026, awards announced end of Oct, orientation early Nov — re-check end of Nov to catch the freshly-named cohort",
+    "manual": true
   },
   "488d9510-d9ef-4d83-9d0e-63aa601629dc": {
     "name": "NXTUS / NXTSTAGE Startup Programs",

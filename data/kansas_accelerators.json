@@ -1,31 +1,17 @@
 [
   {
-    "uuid": "878c740f-4862-42a0-b715-296ce528b436",
-    "name": "ACCEL-KS at KU Innovation Park",
-    "city": "Lawrence",
-    "website": "https://kuinnovationpark.com/",
-    "domain": "kuinnovationpark.com",
+    "uuid": "accel_ks",
+    "name": "ACCEL-KS",
+    "city": "Lawrence (statewide)",
+    "website": "https://www.kansascommerce.gov/",
+    "domain": "kansascommerce.gov",
     "hq_country": "United States",
-    "dealroom_portfolio": 58,
-    "last_round_year": null,
+    "dealroom_portfolio": 16,
+    "last_round_year": 2026,
     "investor_types": [
       "accelerator"
     ],
-    "dealroom_url": "https://app.dealroom.co/investors/ku_innovation_park"
-  },
-  {
-    "uuid": "4c571985-4056-48cf-8fc0-bccf39842be1",
-    "name": "ACCEL-KS at Groover Labs",
-    "city": "Wichita",
-    "website": "https://www.grooverlabs.org/accel-ks",
-    "domain": "grooverlabs.org",
-    "hq_country": "United States",
-    "dealroom_portfolio": 0,
-    "last_round_year": null,
-    "investor_types": [
-      "accelerator"
-    ],
-    "dealroom_url": "https://app.dealroom.co/investors/groover_labs"
+    "dealroom_url": "https://app.dealroom.co/investors/accel_ks"
   },
   {
     "uuid": "488d9510-d9ef-4d83-9d0e-63aa601629dc",
@@ -34,8 +20,8 @@
     "website": "https://www.nxtus.io/",
     "domain": "nxtus.io",
     "hq_country": "United States",
-    "dealroom_portfolio": 0,
-    "last_round_year": null,
+    "dealroom_portfolio": 12,
+    "last_round_year": 2026,
     "investor_types": [
       "accelerator"
     ],
