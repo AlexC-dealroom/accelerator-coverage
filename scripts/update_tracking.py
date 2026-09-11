@@ -66,7 +66,7 @@ def suggest(r):
     if t == "DROP":
         return None, "not tracked (dropped)"
     if t == "PARK":
-        return 365, "dormant — annual re-verify of activity"
+        return None, "dormant — not re-checked"
     if t == "MAINTAIN":
         return 180, "active + already covered — semiannual light check"
     # TARGET

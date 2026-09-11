@@ -1,10 +1,4 @@
 {
-  "abbff219-d27c-45f0-afa4-11dc16aa9115": {
-    "name": "Bronze Valley Investment Accelerator Delaware",
-    "cohort_month": 12,
-    "basis": "scarlet scout (cohort)",
-    "manual": false
-  },
   "899b703b-b9f6-4549-b6d0-22912389e10a": {
     "name": "The Innovation Space - Science Inc. Accelerator",
     "cohort_month": 9,
@@ -28,5 +22,11 @@
     "cohort_month": 9,
     "basis": "scarlet scout (cohort)",
     "manual": false
+  },
+  "bronze_valley_venturelab": {
+    "name": "Bronze Valley VentureLab",
+    "cohort_month": 3,
+    "basis": "twice-yearly (Investment Accel Fall + gBETA Spring); re-check end of March",
+    "manual": true
   }
 }

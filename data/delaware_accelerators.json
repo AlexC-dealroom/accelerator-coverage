@@ -1,17 +1,17 @@
 [
   {
-    "uuid": "abbff219-d27c-45f0-afa4-11dc16aa9115",
-    "name": "Bronze Valley Investment Accelerator Delaware",
+    "uuid": "bronze_valley_venturelab",
+    "name": "Bronze Valley VentureLab",
     "city": "Wilmington",
     "website": "https://www.bronzevalley.com/",
     "domain": "bronzevalley.com",
     "hq_country": "United States",
-    "dealroom_portfolio": 42,
-    "last_round_year": null,
+    "dealroom_portfolio": 17,
+    "last_round_year": 2026,
     "investor_types": [
       "accelerator"
     ],
-    "dealroom_url": "https://app.dealroom.co/investors/bronze_valley"
+    "dealroom_url": "https://app.dealroom.co/investors/bronze_valley_venturelab"
   },
   {
     "uuid": "899b703b-b9f6-4549-b6d0-22912389e10a",
@@ -20,7 +20,7 @@
     "website": "https://innovationspace.org/science-inc-accelerator/",
     "domain": "innovationspace.org",
     "hq_country": "United States",
-    "dealroom_portfolio": 90,
+    "dealroom_portfolio": 110,
     "last_round_year": null,
     "investor_types": [
       "accelerator"
@@ -34,7 +34,7 @@
     "website": "https://ftcafe.org/",
     "domain": "ftcafe.org",
     "hq_country": "United States",
-    "dealroom_portfolio": 3,
+    "dealroom_portfolio": 15,
     "last_round_year": null,
     "investor_types": [
       "accelerator"

@@ -308,7 +308,7 @@ HTML = """<!doctype html>
     <div class="card" style="padding:16px">
       <div style="display:flex;gap:26px;align-items:center;flex-wrap:wrap">
         <div><div id="trendPooled" style="font-size:28px;font-weight:680;letter-spacing:-.02em"></div>
-          <div style="color:var(--ink-2);font-size:12px">companies added since baseline · <span id="trendN"></span> measured · <span id="trendCov"></span> pooled linkage</div></div>
+          <div style="color:var(--ink-2);font-size:12px">portfolio additions · <span id="trendN"></span> measured · <span id="trendCov"></span> pooled linkage</div></div>
         <div style="border-left:1px solid var(--border);padding-left:26px"><div id="trendCreated" style="font-size:28px;font-weight:680;letter-spacing:-.02em;color:var(--target)"></div>
           <div style="color:var(--ink-2);font-size:12px">new profiles created</div></div>
         <div class="foot" id="trendNote" style="margin:0;max-width:340px"></div>

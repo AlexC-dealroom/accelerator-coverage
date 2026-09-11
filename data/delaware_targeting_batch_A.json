@@ -1,16 +1,16 @@
 [
   {
-    "name": "Bronze Valley Investment Accelerator Delaware",
-    "uuid": "abbff219-d27c-45f0-afa4-11dc16aa9115",
+    "name": "Bronze Valley VentureLab",
+    "uuid": "bronze_valley_venturelab",
     "website": "https://www.bronzevalley.com/",
     "website_status": "live_and_relevant",
     "is_accelerator": true,
     "activity_status": "active",
-    "cohort_throughput_estimate": 10,
+    "cohort_throughput_estimate": 15,
     "website_matches_dealroom": true,
-    "evidence": "Equity-based investment accelerator run by Bronze Valley in partnership with gener8tor. Each company receives $100K investment, coaching, and access to a national network. First cohort Fall 2025.",
-    "evidence_url": "https://senatedems.delaware.gov/2025/12/15/senator-brown-celebrates-bronze-valley-inaugural-investment-accelerator-fall-2025-cohort/",
-    "evidence_date": "2025-12",
+    "evidence": "Umbrella accelerator (Bronze Valley VentureLab, Wilmington DE) consolidating the Bronze Valley Investment Accelerator (equity) + gBETA Bronze Valley (free pre-accelerator) cohorts under one Dealroom entity, with gener8tor as OPERATING PARTNER. Its own /investors/bronze_valley_venturelab profile (in scope, like NMotion) — supersedes the Bronze Valley FUND entity (bronze_valley, pf 42) and un-excludes gBETA. Worked 2026-09-11: 17 companies moved under the umbrella (7 created + 10 existing linked, incl. 4 existing adds not on the reviewed sheet). gener8tor's GLOBAL entity (1427) stays untracked.",
+    "evidence_url": "https://app.dealroom.co/investors/bronze_valley_venturelab",
+    "evidence_date": "2026-09",
     "confidence": "high"
   },
   {
