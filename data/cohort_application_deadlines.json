@@ -1,0 +1,14 @@
+{
+  "_schema": "Upcoming cohort application windows, enriched just-in-time as we work accelerators. Each entry: {accelerator, dealroom_url, cohort_name, application_open (YYYY-MM-DD), application_close (YYYY-MM-DD — the due date shown on the calendar), program_start (YYYY-MM-DD), apply_url, region}. Only application_close and accelerator are required; the rest are optional. This feeds the 'Application deadlines' calendar and, later, the public open-calls destination.",
+  "_example": {
+    "accelerator": "Example Accelerator",
+    "dealroom_url": "https://app.dealroom.co/investors/example",
+    "cohort_name": "Spring 2027 Cohort",
+    "application_open": "2026-11-01",
+    "application_close": "2027-01-15",
+    "program_start": "2027-03-01",
+    "apply_url": "https://example.org/apply",
+    "region": "Michigan"
+  },
+  "deadlines": []
+}

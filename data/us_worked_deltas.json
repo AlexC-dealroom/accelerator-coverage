@@ -1,0 +1,260 @@
+{
+ "accel_ks": {
+  "delta": 16,
+  "new_profiles": 9,
+  "name": "ACCEL-KS",
+  "region": "kansas"
+ },
+ "nxtstage": {
+  "delta": 12,
+  "new_profiles": 0,
+  "name": "NXTUS / NXTSTAGE Startup Programs",
+  "region": "kansas"
+ },
+ "the_innovation_space_1": {
+  "delta": 20,
+  "new_profiles": 8,
+  "name": "The Innovation Space - Science Inc. Accelerator",
+  "region": "delaware"
+ },
+ "cafe_center_for_accelerating_financial_equity": {
+  "delta": 12,
+  "new_profiles": 0,
+  "name": "CAFE Fintech Accelerator (Center for Accelerating Financial Equity)",
+  "region": "delaware"
+ },
+ "bronze_valley_venturelab": {
+  "delta": 17,
+  "new_profiles": 7,
+  "name": "Bronze Valley VentureLab",
+  "region": "delaware"
+ },
+ "michigan_founders_fund": {
+  "delta": 0,
+  "new_profiles": 0,
+  "name": "Michigan Founders Fund Pre-Accelerator (MFFPA) powered by gener8tor",
+  "region": "michigan"
+ },
+ "conquer_accelerator_michigan_state_university": {
+  "delta": 0,
+  "new_profiles": 0,
+  "name": "MSU Research Foundation Conquer Accelerator",
+  "region": "michigan"
+ },
+ "desai_accelerator": {
+  "delta": 0,
+  "new_profiles": 0,
+  "name": "Desai Accelerator",
+  "region": "michigan"
+ },
+ "centrepolis_accelerator": {
+  "delta": 0,
+  "new_profiles": 0,
+  "name": "Centrepolis Accelerator - I2P HardTech Accelerator",
+  "region": "michigan"
+ },
+ "mtec_smartzone": {
+  "delta": 0,
+  "new_profiles": 0,
+  "name": "AMMP Accelerator (MTEC SmartZone)",
+  "region": "michigan"
+ },
+ "telluride_venture_network": {
+  "delta": 39,
+  "new_profiles": 19,
+  "name": "Telluride Venture Network",
+  "region": "colorado"
+ },
+ "catalyst_accelerator": {
+  "delta": 18,
+  "new_profiles": 6,
+  "name": "Catalyst Accelerator",
+  "region": "colorado"
+ },
+ "third_derivative": {
+  "delta": 311,
+  "new_profiles": 8,
+  "name": "Third Derivative",
+  "region": "colorado"
+ },
+ "fulcrum_venture_accelerator": {
+  "delta": 67,
+  "new_profiles": 6,
+  "name": "Fulcrum Venture Accelerator",
+  "region": "colorado"
+ },
+ "catalyzecu": {
+  "delta": 16,
+  "new_profiles": 4,
+  "name": "CatalyzeCU",
+  "region": "colorado"
+ },
+ "innosphere_4": {
+  "delta": 35,
+  "new_profiles": 13,
+  "name": "Innosphere",
+  "region": "colorado"
+ },
+ "startup_colorado_1": {
+  "delta": 17,
+  "new_profiles": 6,
+  "name": "Startup Colorado",
+  "region": "colorado"
+ },
+ "labstart_1": {
+  "delta": 14,
+  "new_profiles": 8,
+  "name": "LabStart",
+  "region": "colorado"
+ },
+ "the_warehouse_business_accelerator": {
+  "delta": 22,
+  "new_profiles": 17,
+  "name": "The Warehouse Business Accelerator",
+  "region": "colorado"
+ },
+ "hards": {
+  "delta": 0,
+  "new_profiles": 0,
+  "name": "HARDS",
+  "region": "brazil"
+ },
+ "biotechtown": {
+  "delta": 23,
+  "new_profiles": 9,
+  "name": "BiotechTown",
+  "region": "brazil"
+ },
+ "baita_accelerator": {
+  "delta": 20,
+  "new_profiles": 4,
+  "name": "Baita Accelerator",
+  "region": "brazil"
+ },
+ "inovativa_brasil": {
+  "delta": 344,
+  "new_profiles": 217,
+  "name": "Inovativa Brasil",
+  "region": "brazil"
+ },
+ "bluefields_aceleradora": {
+  "delta": 0,
+  "new_profiles": 1,
+  "name": "Bluefields Aceleradora",
+  "region": "brazil"
+ },
+ "tropos_lab": {
+  "delta": 13,
+  "new_profiles": 3,
+  "name": "TroposLab",
+  "region": "brazil"
+ },
+ "arenahub": {
+  "delta": 13,
+  "new_profiles": 4,
+  "name": "Arenahub",
+  "region": "brazil"
+ },
+ "fabrica_de_startups": {
+  "delta": 0,
+  "new_profiles": 0,
+  "name": "Fabrica de Startups",
+  "region": "brazil"
+ },
+ "grupo_rede_": {
+  "delta": 0,
+  "new_profiles": 0,
+  "name": "Grupo Rede+",
+  "region": "brazil"
+ },
+ "ilhahub_de_inova_o": {
+  "delta": 8,
+  "new_profiles": 1,
+  "name": "Ilhahub de Inova\u00e7\u00e3o",
+  "region": "brazil"
+ },
+ "nexus_11": {
+  "delta": 0,
+  "new_profiles": 0,
+  "name": "Nexus",
+  "region": "brazil"
+ },
+ "pct_guam_": {
+  "delta": 0,
+  "new_profiles": 0,
+  "name": "PCT Guam\u00e1",
+  "region": "brazil"
+ },
+ "sebrae_catalisa_ict": {
+  "delta": 2,
+  "new_profiles": 0,
+  "name": "Sebrae Catalisa ICT",
+  "region": "brazil"
+ },
+ "startup_rio": {
+  "delta": 0,
+  "new_profiles": 0,
+  "name": "Startup RIO",
+  "region": "brazil"
+ },
+ "liga_ventures": {
+  "delta": 0,
+  "new_profiles": 0,
+  "name": "Liga Ventures",
+  "region": "brazil"
+ },
+ "biominas_brasil": {
+  "delta": 3,
+  "new_profiles": 2,
+  "name": "Biominas Brasil",
+  "region": "brazil"
+ },
+ "eretz_bio": {
+  "delta": 0,
+  "new_profiles": 0,
+  "name": "Eretz.bio",
+  "region": "brazil"
+ },
+ "the_hub_s_o_paulo": {
+  "delta": 6,
+  "new_profiles": 0,
+  "name": "Impact Hub Sao Paulo",
+  "region": "brazil"
+ },
+ "oxig_nio_aceleradora": {
+  "delta": 4,
+  "new_profiles": 0,
+  "name": "Oxig\u00eanio Aceleradora",
+  "region": "brazil"
+ },
+ "fgv_ventures_1": {
+  "delta": 0,
+  "new_profiles": 0,
+  "name": "FGV Ventures",
+  "region": "brazil"
+ },
+ "incubatic": {
+  "delta": 0,
+  "new_profiles": 0,
+  "name": "INCUBATIC",
+  "region": "brazil"
+ },
+ "nmotion": {
+  "delta": 6,
+  "new_profiles": 3,
+  "name": "NMotion (powered by gener8tor)",
+  "region": "nebraska"
+ },
+ "steelworks_health_accelerator": {
+  "delta": 4,
+  "new_profiles": 2,
+  "name": "Steelworks Health Accelerator (UNeMed/UNeTech/CQuence Health)",
+  "region": "nebraska"
+ },
+ "mac_xcelerator": {
+  "delta": 0,
+  "new_profiles": 0,
+  "name": "MAC Xcelerator (Midlands African Chamber)",
+  "region": "nebraska"
+ }
+}
