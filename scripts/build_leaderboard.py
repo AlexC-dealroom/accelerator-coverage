@@ -394,7 +394,7 @@ function renderRecheck(){ if(rcDone)return; rcDone=true;
   document.getElementById('rcNote').innerHTML=`Cohort re-check schedule for the ${D.calendar.length} accelerators we're actively tracking &mdash; <b>&#8635;</b> cohort-aligned, <b>&#9998;</b> manually set. New accelerators get a schedule as they're worked.`;
   renderCal(D.calendar,{tiles:'rcTiles',strip:'rcStrip',agenda:'rcAgenda',prefix:'rc',empty:'No re-checks scheduled yet.'},'recheck'); }
 function renderApps(){ if(apDone)return; apDone=true;
-  document.getElementById('apNote').innerHTML=`Upcoming cohort application deadlines &mdash; the seed of a public destination where founders find open calls. No data captured yet; windows appear here as we enrich accelerators with their application dates.`;
+  document.getElementById('apNote').innerHTML=`Upcoming cohort application deadlines &mdash; the seed of a public destination where founders find open calls. Windows are added as we enrich accelerators with their application dates; past windows are listed as Closed.`;
   renderCal(D.app_deadlines,{tiles:'apTiles',strip:'apStrip',agenda:'apAgenda',prefix:'ap',empty:"No application deadlines captured yet. As we enrich accelerators with their open-call dates, upcoming cohort application windows will show up here."},'apps'); }
 function showCal(apps){
   document.getElementById('recheckCal').hidden=apps; document.getElementById('appsCal').hidden=!apps;

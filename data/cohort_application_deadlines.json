@@ -1,5 +1,5 @@
 {
-  "_schema": "Upcoming cohort application windows, enriched just-in-time as we work accelerators. Each entry: {accelerator, dealroom_url, cohort_name, application_open (YYYY-MM-DD), application_close (YYYY-MM-DD \u2014 the due date shown on the calendar), program_start (YYYY-MM-DD), apply_url, region}. Only application_close and accelerator are required; the rest are optional. This feeds the 'Application deadlines' calendar and, later, the public open-calls destination.",
+  "_schema": "Upcoming cohort application windows, enriched just-in-time as we work accelerators. Each entry: {accelerator, dealroom_url, cohort_name, application_open (YYYY-MM-DD), application_close (YYYY-MM-DD — the due date shown on the calendar), program_start (YYYY-MM-DD), apply_url, region}. Only application_close and accelerator are required; the rest are optional. This feeds the 'Application deadlines' calendar and, later, the public open-calls destination.",
   "_example": {
     "accelerator": "Example Accelerator",
     "dealroom_url": "https://app.dealroom.co/investors/example",
@@ -20,7 +20,187 @@
       "program_start": "2027-03-08",
       "apply_url": "https://www.techstars.com/accelerators",
       "region": "national",
-      "notes": "Umbrella Spring 2027 window shared across open programs (e.g. Anywhere/NYC). Open 2026-08-24, final deadline 2026-11-18, start 2027-03-08, Demo Day 2027-06-03. Sources: techstars.com/accelerators/anywhere + Techstars LinkedIn 2026-08-24. Per-program pages generally share these four dates; a few programs may run their own calendar \u2014 flag if found. Chapters stay national-tracked."
+      "notes": "Umbrella Spring 2027 window. Open 2026-08-24, final deadline 2026-11-18, start 2027-03-08, Demo Day 2027-06-03. Verified 2026-09-30 on 8 chapter pages (Anywhere, AI Health Baltimore, Boston, Chicago, London, Northwestern Medicine Healthcare, NYC, USC). Seven other listed programs publish a different calendar (already closed as of 2026-09-30). Techstars Alabama EnergyTech is listed but has no program timeline. Chapters are not separate Dealroom profiles; dealroom_url stays the umbrella investor."
+    },
+    {
+      "accelerator": "Techstars Anywhere",
+      "dealroom_url": "https://app.dealroom.co/investors/techstars",
+      "cohort_name": "Spring 2027",
+      "application_open": "2026-08-24",
+      "application_close": "2026-11-18",
+      "program_start": "2027-03-08",
+      "apply_url": "https://www.techstars.com/accelerators/anywhere",
+      "region": "national",
+      "demo_day": "2027-06-03",
+      "notes": "Matches umbrella Spring 2027 window. Scraped 2026-09-30 from program page timeline (Applications Open / Final Deadline / Accelerator Starts / Demo Day). Not a separate Dealroom profile."
+    },
+    {
+      "accelerator": "Techstars AI Health Baltimore",
+      "dealroom_url": "https://app.dealroom.co/investors/techstars",
+      "cohort_name": "Spring 2027",
+      "application_open": "2026-08-24",
+      "application_close": "2026-11-18",
+      "program_start": "2027-03-08",
+      "apply_url": "https://www.techstars.com/accelerators/baltimore-ai-health",
+      "region": "Baltimore",
+      "demo_day": "2027-06-03",
+      "notes": "Matches umbrella Spring 2027 window. Scraped 2026-09-30 from program page timeline (Applications Open / Final Deadline / Accelerator Starts / Demo Day). Not a separate Dealroom profile."
+    },
+    {
+      "accelerator": "Techstars Boston",
+      "dealroom_url": "https://app.dealroom.co/investors/techstars",
+      "cohort_name": "Spring 2027",
+      "application_open": "2026-08-24",
+      "application_close": "2026-11-18",
+      "program_start": "2027-03-08",
+      "apply_url": "https://www.techstars.com/accelerators/boston",
+      "region": "Boston",
+      "demo_day": "2027-06-03",
+      "notes": "Matches umbrella Spring 2027 window. Scraped 2026-09-30 from program page timeline (Applications Open / Final Deadline / Accelerator Starts / Demo Day). Not a separate Dealroom profile."
+    },
+    {
+      "accelerator": "Techstars Chicago",
+      "dealroom_url": "https://app.dealroom.co/investors/techstars",
+      "cohort_name": "Spring 2027",
+      "application_open": "2026-08-24",
+      "application_close": "2026-11-18",
+      "program_start": "2027-03-08",
+      "apply_url": "https://www.techstars.com/accelerators/chicago",
+      "region": "Chicago",
+      "demo_day": "2027-06-03",
+      "notes": "Matches umbrella Spring 2027 window. Scraped 2026-09-30 from program page timeline (Applications Open / Final Deadline / Accelerator Starts / Demo Day). Not a separate Dealroom profile."
+    },
+    {
+      "accelerator": "Techstars London",
+      "dealroom_url": "https://app.dealroom.co/investors/techstars",
+      "cohort_name": "Spring 2027",
+      "application_open": "2026-08-24",
+      "application_close": "2026-11-18",
+      "program_start": "2027-03-08",
+      "apply_url": "https://www.techstars.com/accelerators/london",
+      "region": "London",
+      "demo_day": "2027-06-03",
+      "notes": "Matches umbrella Spring 2027 window. Scraped 2026-09-30 from program page timeline (Applications Open / Final Deadline / Accelerator Starts / Demo Day). Not a separate Dealroom profile."
+    },
+    {
+      "accelerator": "Northwestern Medicine & Techstars Healthcare",
+      "dealroom_url": "https://app.dealroom.co/investors/techstars",
+      "cohort_name": "Spring 2027",
+      "application_open": "2026-08-24",
+      "application_close": "2026-11-18",
+      "program_start": "2027-03-08",
+      "apply_url": "https://www.techstars.com/accelerators/northwestern-medicine-healthcare",
+      "region": "Chicago",
+      "demo_day": "2027-06-03",
+      "notes": "Matches umbrella Spring 2027 window. Scraped 2026-09-30 from program page timeline (Applications Open / Final Deadline / Accelerator Starts / Demo Day). Not a separate Dealroom profile."
+    },
+    {
+      "accelerator": "Techstars New York City",
+      "dealroom_url": "https://app.dealroom.co/investors/techstars",
+      "cohort_name": "Spring 2027",
+      "application_open": "2026-08-24",
+      "application_close": "2026-11-18",
+      "program_start": "2027-03-08",
+      "apply_url": "https://www.techstars.com/accelerators/nyc",
+      "region": "New York City",
+      "demo_day": "2027-06-03",
+      "notes": "Matches umbrella Spring 2027 window. Scraped 2026-09-30 from program page timeline (Applications Open / Final Deadline / Accelerator Starts / Demo Day). Not a separate Dealroom profile."
+    },
+    {
+      "accelerator": "USC and Techstars",
+      "dealroom_url": "https://app.dealroom.co/investors/techstars",
+      "cohort_name": "Spring 2027",
+      "application_open": "2026-08-24",
+      "application_close": "2026-11-18",
+      "program_start": "2027-03-08",
+      "apply_url": "https://www.techstars.com/accelerators/usc-and-techstars",
+      "region": "Los Angeles",
+      "demo_day": "2027-06-03",
+      "notes": "Matches umbrella Spring 2027 window. Scraped 2026-09-30 from program page timeline (Applications Open / Final Deadline / Accelerator Starts / Demo Day). Not a separate Dealroom profile."
+    },
+    {
+      "accelerator": "ABN AMRO + Techstars Future of Finance",
+      "dealroom_url": "https://app.dealroom.co/investors/techstars",
+      "cohort_name": "Fall 2026",
+      "application_open": "2026-03-02",
+      "application_close": "2026-06-10",
+      "program_start": "2026-09-08",
+      "apply_url": "https://www.techstars.com/accelerators/abn-amro-techstars-future-of-finance-accelerator",
+      "region": "Amsterdam",
+      "demo_day": "2026-12-10",
+      "notes": "DIVERGENT from Spring 2027 umbrella. Scraped 2026-09-30 from this program page only. Application window already closed (final deadline 2026-06-10). Season name is not printed on the timeline; cohort labeled from the Sep 2026 start. Not a separate Dealroom profile. Location on page: Amsterdam, Netherlands."
+    },
+    {
+      "accelerator": "Techstars Boulder",
+      "dealroom_url": "https://app.dealroom.co/investors/techstars",
+      "cohort_name": "Fall 2026",
+      "application_open": "2026-03-02",
+      "application_close": "2026-06-10",
+      "program_start": "2026-09-08",
+      "apply_url": "https://www.techstars.com/accelerators/boulder",
+      "region": "Boulder",
+      "demo_day": "2026-12-07",
+      "notes": "DIVERGENT from Spring 2027 umbrella. Scraped 2026-09-30 from this program page only. Application window already closed (final deadline 2026-06-10). Season name is not printed on the timeline; cohort labeled from the Sep 2026 start. Not a separate Dealroom profile. Demo Day 2026-12-07 differs from the 2026-12-10 Demo Day on several other non-Spring programs."
+    },
+    {
+      "accelerator": "Techstars Columbus",
+      "dealroom_url": "https://app.dealroom.co/investors/techstars",
+      "cohort_name": "Fall 2026",
+      "application_open": "2026-03-02",
+      "application_close": "2026-06-10",
+      "program_start": "2026-09-08",
+      "apply_url": "https://www.techstars.com/accelerators/ohio-state-university-accelerator",
+      "region": "Columbus",
+      "demo_day": "2026-12-10",
+      "notes": "DIVERGENT from Spring 2027 umbrella. Scraped 2026-09-30 from this program page only. Application window already closed (final deadline 2026-06-10). Season name is not printed on the timeline; cohort labeled from the Sep 2026 start. Not a separate Dealroom profile. Page title: Techstars Columbus Powered by The Ohio State University. Location: Columbus, Ohio."
+    },
+    {
+      "accelerator": "Techstars Future of Food",
+      "dealroom_url": "https://app.dealroom.co/investors/techstars",
+      "cohort_name": "Fall 2026",
+      "application_open": "2026-03-02",
+      "application_close": "2026-06-10",
+      "program_start": "2026-09-08",
+      "apply_url": "https://www.techstars.com/accelerators/future-of-food",
+      "region": "Minneapolis",
+      "demo_day": "2026-12-10",
+      "notes": "DIVERGENT from Spring 2027 umbrella. Scraped 2026-09-30 from this program page only. Application window already closed (final deadline 2026-06-10). Season name is not printed on the timeline; cohort labeled from the Sep 2026 start. Not a separate Dealroom profile. Page title: Techstars Future of Food Powered by Ecolab. Location: Minneapolis, Minnesota."
+    },
+    {
+      "accelerator": "Techstars Healthcare Permanente Mid-Atlantic",
+      "dealroom_url": "https://app.dealroom.co/investors/techstars",
+      "cohort_name": "Fall 2026",
+      "application_open": "2026-03-02",
+      "application_close": "2026-06-10",
+      "program_start": "2026-09-08",
+      "apply_url": "https://www.techstars.com/accelerators/permanente-medicine",
+      "region": "Washington, D.C.",
+      "demo_day": "2026-12-09",
+      "notes": "DIVERGENT from Spring 2027 umbrella. Scraped 2026-09-30 from this program page only. Application window already closed (final deadline 2026-06-10). Season name is not printed on the timeline; cohort labeled from the Sep 2026 start. Not a separate Dealroom profile. Demo Day 2026-12-09. Page title: Techstars Healthcare Accelerator powered by Permanente Medicine Mid-Atlantic States. Location: Washington, D.C."
+    },
+    {
+      "accelerator": "Techstars Space",
+      "dealroom_url": "https://app.dealroom.co/investors/techstars",
+      "cohort_name": "Fall 2026",
+      "application_open": "2026-03-02",
+      "application_close": "2026-06-10",
+      "program_start": "2026-09-08",
+      "apply_url": "https://www.techstars.com/accelerators/space",
+      "region": "Los Angeles",
+      "demo_day": "2026-12-10",
+      "notes": "DIVERGENT from Spring 2027 umbrella. Scraped 2026-09-30 from this program page only. Application window already closed (final deadline 2026-06-10). Season name is not printed on the timeline; cohort labeled from the Sep 2026 start. Not a separate Dealroom profile. Location on page: Los Angeles, California."
+    },
+    {
+      "accelerator": "Techstars Tokyo",
+      "dealroom_url": "https://app.dealroom.co/investors/techstars",
+      "cohort_name": "2026",
+      "application_open": "2025-12-18",
+      "application_close": "2026-05-06",
+      "program_start": "2026-08-17",
+      "apply_url": "https://www.techstars.com/accelerators/tokyo",
+      "region": "Tokyo",
+      "demo_day": "2026-11-10",
+      "notes": "DIVERGENT from Spring 2027 umbrella. Scraped 2026-09-30 from the Tokyo program page only. Open 2025-12-18, final deadline 2026-05-06 (already closed), start 2026-08-17, Demo Day 2026-11-10. Location: Tokyo, Japan. Not a separate Dealroom profile."
     }
   ]
 }
