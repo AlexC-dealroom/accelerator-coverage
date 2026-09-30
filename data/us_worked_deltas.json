@@ -1,4 +1,12 @@
 {
+ "techstars": {
+  "delta": 1149,
+  "new_profiles": 184,
+  "name": "Techstars",
+  "region": "national",
+  "as_of": "2026-09-30",
+  "notes": "Umbrella only. portfolio_before 5394 -> after 6543 on Accelerators sheet (batch_06). Creates 184; to_create still 519. Chapters stay rolled into national (out of scope as standalone)."
+ },
  "accel_ks": {
   "delta": 16,
   "new_profiles": 9,

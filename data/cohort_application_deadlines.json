@@ -1,5 +1,5 @@
 {
-  "_schema": "Upcoming cohort application windows, enriched just-in-time as we work accelerators. Each entry: {accelerator, dealroom_url, cohort_name, application_open (YYYY-MM-DD), application_close (YYYY-MM-DD — the due date shown on the calendar), program_start (YYYY-MM-DD), apply_url, region}. Only application_close and accelerator are required; the rest are optional. This feeds the 'Application deadlines' calendar and, later, the public open-calls destination.",
+  "_schema": "Upcoming cohort application windows, enriched just-in-time as we work accelerators. Each entry: {accelerator, dealroom_url, cohort_name, application_open (YYYY-MM-DD), application_close (YYYY-MM-DD \u2014 the due date shown on the calendar), program_start (YYYY-MM-DD), apply_url, region}. Only application_close and accelerator are required; the rest are optional. This feeds the 'Application deadlines' calendar and, later, the public open-calls destination.",
   "_example": {
     "accelerator": "Example Accelerator",
     "dealroom_url": "https://app.dealroom.co/investors/example",
@@ -10,5 +10,17 @@
     "apply_url": "https://example.org/apply",
     "region": "Michigan"
   },
-  "deadlines": []
+  "deadlines": [
+    {
+      "accelerator": "Techstars",
+      "dealroom_url": "https://app.dealroom.co/investors/techstars",
+      "cohort_name": "Spring 2027",
+      "application_open": "2026-08-24",
+      "application_close": "2026-11-18",
+      "program_start": "2027-03-08",
+      "apply_url": "https://www.techstars.com/accelerators",
+      "region": "national",
+      "notes": "Umbrella Spring 2027 window shared across open programs (e.g. Anywhere/NYC). Open 2026-08-24, final deadline 2026-11-18, start 2027-03-08, Demo Day 2027-06-03. Sources: techstars.com/accelerators/anywhere + Techstars LinkedIn 2026-08-24. Per-program pages generally share these four dates; a few programs may run their own calendar \u2014 flag if found. Chapters stay national-tracked."
+    }
+  ]
 }
