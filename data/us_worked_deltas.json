@@ -4,8 +4,8 @@
   "new_profiles": 184,
   "name": "Techstars",
   "region": "national",
-  "as_of": "2026-09-30",
-  "notes": "Umbrella only. portfolio_before 5394 -> after 6543 on Accelerators sheet (batch_06). Creates 184; to_create still 519. Chapters stay rolled into national (out of scope as standalone)."
+  "as_of": "2026-10-02",
+  "notes": "Umbrella only. Worked delta 1149 / creates 184 unchanged (batch_06). Live portfolio 6138 after cleanup (sheet peak 6543). H holds 934 researched; 188 wrong-entity unlinks + 2 post-2020; residual unclear mostly pre-2021. Chapters stay national-rolled."
  },
  "accel_ks": {
   "delta": 16,
@@ -178,7 +178,7 @@
  "ilhahub_de_inova_o": {
   "delta": 8,
   "new_profiles": 1,
-  "name": "Ilhahub de Inova\u00e7\u00e3o",
+  "name": "Ilhahub de Inovação",
   "region": "brazil"
  },
  "nexus_11": {
@@ -190,7 +190,7 @@
  "pct_guam_": {
   "delta": 0,
   "new_profiles": 0,
-  "name": "PCT Guam\u00e1",
+  "name": "PCT Guamá",
   "region": "brazil"
  },
  "sebrae_catalisa_ict": {
@@ -232,7 +232,7 @@
  "oxig_nio_aceleradora": {
   "delta": 4,
   "new_profiles": 0,
-  "name": "Oxig\u00eanio Aceleradora",
+  "name": "Oxigênio Aceleradora",
   "region": "brazil"
  },
  "fgv_ventures_1": {
@@ -264,5 +264,13 @@
   "new_profiles": 0,
   "name": "MAC Xcelerator (Midlands African Chamber)",
   "region": "nebraska"
+ },
+ "antler_co": {
+  "delta": 71,
+  "new_profiles": 16,
+  "name": "Antler",
+  "region": "national",
+  "as_of": "2026-10-02",
+  "notes": "Umbrella antler_co only; SEED omit amount. before 2180 → live after 2207. Worked adds 71 (batch_01 68 + weak_domain 3); creates 16. Post-2020 off-roster 669: 659 already_correct, 7 fixed, 2 unlinked, 1 unclear (e8n.ai). Quality: portfolio mostly correct; roster scrape gaps dominate. Calling Antler done."
  }
 }
