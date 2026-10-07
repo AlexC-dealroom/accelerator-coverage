@@ -5,7 +5,10 @@
   "name": "Techstars",
   "region": "national",
   "as_of": "2026-10-07",
-  "notes": "Umbrella only. Worked delta 1149 / creates 184 unchanged (batch_06). Live portfolio 6138 after cleanup (sheet peak 6543). H holds 934 researched; 188 wrong-entity unlinks + 2 post-2020; residual unclear mostly pre-2021. Chapters stay national-rolled. Fall 2026 class 57 (2026-10-03): 2 created, 24 new SEED, 11 SP→SEED, 19 already had TS, 1 hold; SEED $220k 2026-09."
+  "notes": "Umbrella only. Worked delta 1149 / creates 184 unchanged (batch_06). Live portfolio 6138 after cleanup (sheet peak 6543). H holds 934 researched; 188 wrong-entity unlinks + 2 post-2020; residual unclear mostly pre-2021. Chapters stay national-rolled. Fall 2026 class 57 (2026-10-03): 2 created, 24 new SEED, 11 SP→SEED, 19 already had TS, 1 hold; SEED $220k 2026-09.",
+  "portfolio_now": 6138,
+  "portfolio_now_as_of": "2026-10-02",
+  "portfolio_now_note": "live, after wrong-entity cleanup"
  },
  "accel_ks": {
   "delta": 16,
@@ -271,7 +274,10 @@
   "name": "Antler",
   "region": "national",
   "as_of": "2026-10-02",
-  "notes": "Umbrella antler_co only; SEED omit amount. before 2180 → live after 2207. Worked adds 71 (batch_01 68 + weak_domain 3); creates 16. Post-2020 off-roster 669: 659 already_correct, 7 fixed, 2 unlinked, 1 unclear (e8n.ai). Quality: portfolio mostly correct; roster scrape gaps dominate. Calling Antler done."
+  "notes": "Umbrella antler_co only; SEED omit amount. before 2180 → live after 2207. Worked adds 71 (batch_01 68 + weak_domain 3); creates 16. Post-2020 off-roster 669: 659 already_correct, 7 fixed, 2 unlinked, 1 unclear (e8n.ai). Quality: portfolio mostly correct; roster scrape gaps dominate. Calling Antler done.",
+  "portfolio_now": 2207,
+  "portfolio_now_as_of": "2026-10-02",
+  "portfolio_now_note": "live, umbrella antler_co"
  },
  "sparklabs_group": {
   "delta": 171,
@@ -279,6 +285,9 @@
   "name": "SparkLabs",
   "region": "national",
   "as_of": "2026-10-07",
-  "notes": "Rule B: regional program/fund as SparkLabs publishes; Group = umbrella/Global Capital only. Worked adds 171 (attach 78 + creates batch 17 + cleanup 5 + holds 71); creates 9. All SparkLabs entities 382 → 495 (Korea 214, Taiwan 83, GV 92, Ventures 23, Cultiv8 49, Saudi 12, Frontier-ASU 1, Group 21→20 after purge). AU corporate 'sparklabs' 5 wrong deals → 0. to_create 5; 4 unlinked holds. Only US program Frontier-ASU (pf 1)."
+  "notes": "Rule B: regional program/fund as SparkLabs publishes; Group = umbrella/Global Capital only. Worked adds 171 (attach 78 + creates batch 17 + cleanup 5 + holds 71); creates 9. All SparkLabs entities 382 → 495 (Korea 214, Taiwan 83, GV 92, Ventures 23, Cultiv8 49, Saudi 12, Frontier-ASU 1, Group 21→20 after purge). AU corporate 'sparklabs' 5 wrong deals → 0. to_create 5; 4 unlinked holds. Only US program Frontier-ASU (pf 1).",
+  "portfolio_now": 495,
+  "portfolio_now_as_of": "2026-10-07",
+  "portfolio_now_note": "all SparkLabs entities; Group umbrella alone is 20 after rule-B moves"
  }
 }

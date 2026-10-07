@@ -52,7 +52,12 @@ with open(os.path.join(DATA, "us_accelerators_2026-09-16.csv")) as f:
             "n": r[4].strip(), "u": url, "city": r[7].strip(), "country": r[6].strip(),
             "sec": [s for s in (r[8] or "").split(";") if s][:2],
             "yr": r[9].strip(), "lr": r[10].strip(),
-            "pf": int(num(r[11])) if num(r[11]) is not None else None,
+            "pf": (w["portfolio_now"] if w and w.get("portfolio_now") is not None
+                   else (int(num(r[11])) if num(r[11]) is not None else None)),
+            "pf0": int(num(r[11])) if num(r[11]) is not None else None,
+            "pfd": (w.get("portfolio_now_as_of") if w and w.get("portfolio_now") is not None else None),
+            "pfn": (w.get("portfolio_now_note") if w and w.get("portfolio_now") is not None else None),
+            "wd": (w.get("as_of") if w else None),
             "val": num(r[15]), "ex": num(r[13]),
             "vc": rid in vc_ids,
             "dpf": w["delta"] if w else None,
@@ -148,6 +153,8 @@ HTML = """<!doctype html>
   .kpi .l{color:var(--ink-2);font-size:12px;margin-top:3px}
   .kpi.hl .n{color:var(--green)}
   .kpi.blue .n{color:var(--blue)}
+  .hint{cursor:help;text-decoration:underline dotted;text-decoration-color:var(--muted);text-underline-offset:3px}
+  sup.upd{color:var(--green);font-size:8px;margin-left:2px}
   /* controls */
   .controls{display:flex;gap:10px;align-items:center;margin-bottom:12px;flex-wrap:wrap}
   .controls input{flex:1;min-width:200px;background:var(--surface);border:1px solid var(--border);border-radius:9px;
@@ -249,16 +256,17 @@ HTML = """<!doctype html>
       <thead><tr>
         <th data-k="rank">#</th>
         <th data-k="n">Accelerator</th>
-        <th data-k="pf" class="num">Portfolio</th>
+        <th data-k="pf" class="num"><span class="hint" title="Current Dealroom portfolio size: from the latest Dealroom export, or a newer recorded count where marked with a green dot. Hover a number for its date.">Portfolio</span></th>
         <th data-k="val" class="num">Current value</th>
         <th data-k="ex" class="num">Exits</th>
         <th data-k="lr">Last round</th>
-        <th data-k="dpf" class="num" title="Portfolio-size increase since we worked it">&Delta; Portfolio</th>
-        <th data-k="np" class="num" title="New Dealroom profiles we created">New profiles</th>
+        <th data-k="dpf" class="num"><span class="hint" title="Companies we have added to this accelerator's Dealroom portfolio since the project began (Aug 2026). Cumulative across all our work, not the difference between two portfolio counts: cleanup of wrongly attached companies can lower the portfolio without reducing this.">Added since start</span></th>
+        <th data-k="np" class="num"><span class="hint" title="New Dealroom company profiles we created for this accelerator's companies since the project began (Aug 2026).">New profiles</span></th>
       </tr></thead>
       <tbody id="rows"></tbody>
     </table></div></div>
     <div class="foot" id="count"></div>
+    <div class="foot"><b>Portfolio</b> is the current Dealroom portfolio size (latest export; <span style="color:var(--green)">●</span> = newer recorded count). <b>Added since start</b> and <b>New profiles</b> are cumulative since the project began in Aug 2026 &mdash; cleanup of wrongly attached companies can lower a portfolio without reducing them. Hover any number for its date.</div>
     </div>
     <div id="calView" hidden>
       <div class="viewtabs" style="margin-bottom:14px">
@@ -290,12 +298,22 @@ const fmtMoney=v=>{ if(v==null) return '<span class=dash>&mdash;</span>';
   if(v>=1) return '$'+v.toFixed(1)+'M';
   if(v>0) return '$'+Math.round(v*1000)+'K'; return '<span class=dash>$0</span>'; };
 const fmtInt=v=> v==null?'<span class=dash>&mdash;</span>':v.toLocaleString();
+const EXPORT=D.generated;
+function pfCell(x){
+  if(x.pf==null) return fmtInt(null);
+  const t = x.pfd
+    ? `${x.pf.toLocaleString()} as of ${x.pfd}${x.pfn?' ('+x.pfn+')':''} · ${x.pf0!=null?x.pf0.toLocaleString():'—'} in the ${EXPORT} export`
+    : `${x.pf.toLocaleString()} as of the ${EXPORT} Dealroom export`;
+  return `<span class="hint" title="${t}">${x.pf.toLocaleString()}</span>${x.pfd?'<sup class="upd" aria-label="updated since export">●</sup>':''}`;
+}
 function kpis(){
   const k=[['n_total','Accelerators tracked',''],['n_vc','VC-backed portfolios',''],
-    ['n_worked','Checked and backfilled','hl'],['add_total','Portfolio additions','hl'],['np_total','New profiles created','blue']];
+    ['n_worked','Checked and backfilled','hl'],['add_total','Added to portfolios since start','hl'],['np_total','New profiles created since start','blue']];
+  const tips={add_total:'Companies we have added to accelerator portfolios in Dealroom since the project began (Aug 2026), summed across all worked accelerators.',
+    np_total:'New Dealroom company profiles we have created since the project began (Aug 2026).'};
   document.getElementById('kpis').innerHTML=k.map(([f,l,c])=>{
-    let v=D[f]; if(f==='add_total') v='+'+v;
-    return `<div class="kpi ${c}"><div class="n">${typeof v==='number'?v.toLocaleString():v}</div><div class="l">${l}</div></div>`;
+    let v=D[f]; if(f==='add_total') v='+'+v.toLocaleString();
+    return `<div class="kpi ${c}"${tips[f]?` title="${tips[f]}"`:''}><div class="n">${typeof v==='number'?v.toLocaleString():v}</div><div class="l">${l}</div></div>`;
   }).join('');
 }
 let sortK='val', sortDir=-1, top50=true, vcOnly=false, wkOnly=false;
@@ -322,12 +340,12 @@ function render(){
       <td class="rank">${x.rank}</td>
       <td><div class="acc"><div class="logo" style="background:${col}">${ini}</div>
         <div><div class="nm">${nm} ${badges}</div><div class="hq">${hq}</div></div></div></td>
-      <td class="num">${fmtInt(x.pf)}</td>
+      <td class="num">${pfCell(x)}</td>
       <td class="num"><span class="val">${fmtMoney(x.val)}</span></td>
       <td class="num">${fmtMoney(x.ex)}</td>
       <td>${x.lr||'<span class=dash>&mdash;</span>'}</td>
-      <td class="num">${x.dpf!=null?'<span class="delta">+'+x.dpf+'</span>':'<span class=dash>&mdash;</span>'}</td>
-      <td class="num">${x.np!=null&&x.np>0?x.np:'<span class=dash>&mdash;</span>'}</td>
+      <td class="num">${x.dpf!=null?`<span class="delta hint" title="+${x.dpf.toLocaleString()} companies added to the portfolio since the project began${x.wd?' (as of '+x.wd+')':''}">+${x.dpf.toLocaleString()}</span>`:'<span class=dash>&mdash;</span>'}</td>
+      <td class="num">${x.np!=null&&x.np>0?`<span class="hint" title="${x.np.toLocaleString()} new Dealroom profiles created since the project began${x.wd?' (as of '+x.wd+')':''}">${x.np.toLocaleString()}</span>`:'<span class=dash>&mdash;</span>'}</td>
     </tr>`;}).join('');
   document.getElementById('count').textContent =
     `${shown.length.toLocaleString()} shown of ${r.length.toLocaleString()} filtered · ${D.n_total.toLocaleString()} total US accelerators · sorted by ${sortK==='val'?'current value':sortK}`;
