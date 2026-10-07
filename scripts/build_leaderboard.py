@@ -8,6 +8,7 @@ generate by working an accelerator: portfolio-size increase + new profiles.
 Reads:  data/us_accelerators_2026-09-16.csv   (the 1,466-row Dealroom export)
         data/us_accelerators_vc_backed.json   (VC-round-filtered slugs)
         data/us_worked_deltas.json            (our worked deltas, by Dealroom slug)
+        data/us_excluded.json                 (slugs dropped after the export, e.g. reclassified as VC)
 Writes: leaderboard.html   (self-contained)
 Run:    python3 scripts/build_leaderboard.py
 """
@@ -22,6 +23,8 @@ DATA = os.path.join(BASE, "data")
 # get flagged (~433) — the rest of the 884 are outside this universe.
 vc_ids = set(json.load(open(os.path.join(DATA, "us_accelerators_vc_backed_ids.json"))))
 worked = json.load(open(os.path.join(DATA, "us_worked_deltas.json")))
+exf = os.path.join(DATA, "us_excluded.json")
+excluded = {k for k in (json.load(open(exf)) if os.path.exists(exf) else {}) if not k.startswith("_")}
 
 def num(s):
     s = (s or "").strip().replace(",", "")
@@ -42,6 +45,8 @@ with open(os.path.join(DATA, "us_accelerators_2026-09-16.csv")) as f:
         rid = r[0].strip()
         url = r[2].strip()
         slug = url.split("/investors/")[-1].rstrip("/") if "/investors/" in url else None
+        if slug in excluded:
+            continue
         w = worked.get(slug)
         rows.append({
             "n": r[4].strip(), "u": url, "city": r[7].strip(), "country": r[6].strip(),

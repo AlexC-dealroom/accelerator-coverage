@@ -1,0 +1,9 @@
+{
+ "_schema": "Accelerators removed from the leaderboard universe after the export (e.g. reclassified in Dealroom). Keyed by Dealroom /investors/ slug: {name, reason, as_of, dealroom_id}. build_leaderboard.py skips these rows. Hand-maintained, like us_worked_deltas.json.",
+ "heavybit_industries": {
+  "name": "Heavybit",
+  "reason": "Reclassified by Alex 2026-10-06 as a venture capital fund (DR type fund / venture_capital: 'Former accelerator, now a venture fund'). Link audit was read-only, 0 DR writes; pf 79.",
+  "as_of": "2026-10-07",
+  "dealroom_id": 161924
+ }
+}
