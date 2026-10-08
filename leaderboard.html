@@ -650,7 +650,8 @@ function openCard(i){
     row('Sources',srcs.length?`<span class="src">${srcs.map(s=>`<a href="${esc(s)}" target="_blank" rel="noopener">${esc(s.replace(/^https?:\/\/(www\.)?/,'').slice(0,70))}</a>`).join('')}</span>`:'')+
     row('Last checked',esc(r.lc))+`</dl>`+
     `<div class="acts">${okUrl(r.apply)?`<a class="apbtn" style="color:var(--blue)" href="${esc(r.apply)}" target="_blank" rel="noopener">Apply &#8599;</a>`:''}`+
-    `${r.slug?`<a class="apbtn" href="${DRU}${esc(r.slug)}" target="_blank" rel="noopener">Dealroom profile &#8599;</a>`:''}</div>`+
+    `${r.slug?`<a class="apbtn" href="${DRU}${esc(r.slug)}" target="_blank" rel="noopener">Dealroom profile &#8599;</a>`:''}`+
+    `${exactClose(r)&&r.close>=TD?`<a class="apbtn" href="${esc(gcalUrl(r))}" target="_blank" rel="noopener">Add to Google Calendar &#8599;</a>`:''}</div>`+
     (others.length?`<div class="oth"><b>Other windows for this accelerator</b>${others.map(o=>`<div>${nmA(o)} <span style="color:var(--muted)">&middot; ${esc([progOf(o),o.coh].filter(Boolean).join(' · '))||esc(ST[o.st]||o.st)} &middot; ${esc(o.close?fmtD(o.close):'date not published')}</span>${infB(o)}</div>`).join('')}</div>`:'');
   const ov=document.getElementById('apOvl'); ov.hidden=false; ov.querySelector('.x').focus();
 }
@@ -696,12 +697,20 @@ function saveCsv(){
       if(e&&(e.code==='rate_limited'))toast('A save prompt is already open.'); else toast('Saving is not available in this view.'); }); }
   else blobSave(name,text,'text/csv');
 }
-// In the claude.ai viewer the downloads capability can't save .ics, so the button links the
-// published default-view file; opened as a plain page, it builds an .ics from the current filters.
+// The claude.ai viewer can neither serve nor download .ics, so there the button opens the published
+// default-view file (served as plain text: save it as .ics to import) and each card offers an
+// "Add to Google Calendar" link; opened as a plain page, it builds an .ics from the current filters.
 function setIcsMode(){
   const a=document.getElementById('apIcs'); if(!a) return;
-  a.title=DL?'Upcoming published deadlines for the default view (active programs, US HQ), as a calendar file'
-            :'Upcoming published deadlines for the current filters, as a calendar file';
+  if(DL){ a.textContent='Open .ics (default view)';
+    a.title='Upcoming published deadlines for the default view (active programs, US HQ). Opens as text: save it with a .ics extension, then import into your calendar.'; }
+  else a.title='Upcoming published deadlines for the current filters, as a calendar file';
+}
+function gcalUrl(r){
+  const d=r.close.replace(/-/g,''), e=addDays(r.close,1).replace(/-/g,'');
+  const det=[progOf(r),r.coh,okUrl(r.apply)?'Apply: '+r.apply:''].filter(Boolean).join('\n');
+  return 'https://calendar.google.com/calendar/render?action=TEMPLATE&text='+encodeURIComponent(`${r.n}: ${r.prog||r.n} deadline`)+
+    '&dates='+d+'/'+e+'&details='+encodeURIComponent(det);
 }
 function icsClick(e){
   if(DL) return;                          // let the link open the published cohort_deadlines.ics
