@@ -1,0 +1,414 @@
+BEGIN:VCALENDAR
+VERSION:2.0
+PRODID:-//Dealroom//Accelerator Cohort Calendar//EN
+CALSCALE:GREGORIAN
+METHOD:PUBLISH
+X-WR-CALNAME:Accelerator application deadlines
+BEGIN:VEVENT
+UID:20261011-startx-startx-accelerator-stanford-spring-2027@accelerator-co
+ verage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261011
+DTEND;VALUE=DATE:20261012
+SUMMARY:StartX: StartX Accelerator (Stanford) deadline
+TRANSP:TRANSPARENT
+URL:https://startx.com/apply
+DESCRIPTION:Spring 2027 · Palo Alto\, CA\, US · Last checked 2026-10-07
+END:VEVENT
+BEGIN:VEVENT
+UID:20261018-leap-venture-studio-leap-venture-studio-pet-care-mars-petcare
+ -taw-michelson-coho@accelerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261018
+DTEND;VALUE=DATE:20261019
+SUMMARY:Leap Venture Studio: Leap Venture Studio (pet care\; Mars Petcare 
+ + TAW + Michelson) deadline
+TRANSP:TRANSPARENT
+URL:https://www.leapventurestudio.com/
+DESCRIPTION:Cohort 11 · Los Angeles\, US · Last checked 2026-10-07
+END:VEVENT
+BEGIN:VEVENT
+UID:20261020-masschallenge-sanofi-thrive-challenge-powered-by-masschalleng
+ e-2027@accelerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:MassChallenge: Sanofi THRIVE Challenge (powered by MassChallenge) 
+ deadline
+TRANSP:TRANSPARENT
+URL:https://masschallenge.org/sanofi-thrive-challenge/
+DESCRIPTION:2027 · Boston\, MA\, US · Last checked 2026-10-07
+END:VEVENT
+BEGIN:VEVENT
+UID:20261020-nucleate-activator-nucleate-activator-us-chapters-2027-cohort
+ @accelerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261020
+DTEND;VALUE=DATE:20261021
+SUMMARY:Nucleate Activator: Nucleate Activator (US chapters) deadline
+TRANSP:TRANSPARENT
+URL:http://nucleate.org/activator/
+DESCRIPTION:2027 cohort · Boston\, US · Last checked 2026-10-07
+END:VEVENT
+BEGIN:VEVENT
+UID:20261021-afwerx-daf-sbir-sttr-specific-topic-solicitation-release-6-26
+ -bz-26-bx-sttr-26-t@accelerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261021
+DTEND;VALUE=DATE:20261022
+SUMMARY:AFWERX: DAF SBIR/STTR specific-topic solicitation deadline
+TRANSP:TRANSPARENT
+URL:https://www.dodsbirsttr.mil/submissions/login
+DESCRIPTION:Release 6 (26.BZ/26.BX\; STTR 26.TZ/26.TX) · Remote (US) · L
+ ast checked 2026-10-07
+END:VEVENT
+BEGIN:VEVENT
+UID:20261023-halcyon-halcyon-africa-innovation-in-agriculture-food-securit
+ y-accelerator-2027@accelerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261023
+DTEND;VALUE=DATE:20261024
+SUMMARY:Halcyon: Halcyon Africa Innovation in Agriculture & Food Security 
+ Accelerator deadline
+TRANSP:TRANSPARENT
+URL:https://halcyonaccelerator.org/africa-innovation-in-ag-2027/
+DESCRIPTION:2027 · Washington DC\, US · Last checked 2026-10-07
+END:VEVENT
+BEGIN:VEVENT
+UID:20261030-activate-activate-fellowship-us-us-cohort-2027@accelerator-co
+ verage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Activate: Activate Fellowship (US) deadline
+TRANSP:TRANSPARENT
+URL:https://activate.org/apply
+DESCRIPTION:US Cohort 2027 · Berkeley\, US · Last checked 2026-10-07
+END:VEVENT
+BEGIN:VEVENT
+UID:20261030-maryland-energy-innovation-accelerator-meia-investment-readin
+ ess-program-nov-202@accelerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261030
+DTEND;VALUE=DATE:20261031
+SUMMARY:Maryland Energy Innovation Accelerator: MEIA Investment Readiness 
+ Program deadline
+TRANSP:TRANSPARENT
+URL:https://mdeia.org/phase-3
+DESCRIPTION:Nov 2026–Apr 2027 · College Park\, US · Last checked 2026-
+ 10-07
+END:VEVENT
+BEGIN:VEVENT
+UID:20261101-parallel18-bioleap-parallel18-life-sciences-program-gen-4@acc
+ elerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261101
+DTEND;VALUE=DATE:20261102
+SUMMARY:Parallel18: BioLeap (Parallel18 life-sciences program) deadline
+TRANSP:TRANSPARENT
+URL:https://parallel18.com/bioleap/
+DESCRIPTION:Gen. 4 · San Juan\, Puerto Rico · Last checked 2026-10-08
+END:VEVENT
+BEGIN:VEVENT
+UID:20261102-y-combinator-yc-batch-san-francisco-winter-2027-w27@accelerat
+ or-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Y Combinator: YC Batch (San Francisco) deadline
+TRANSP:TRANSPARENT
+URL:https://www.ycombinator.com/apply
+DESCRIPTION:Winter 2027 (W27) · San Francisco\, CA\, US · Last checked 2
+ 026-10-07
+END:VEVENT
+BEGIN:VEVENT
+UID:20261102-entrepreneurs-roundtable-accelerator-era-nyc-winter-2027@acce
+ lerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:Entrepreneurs Roundtable Accelerator: ERA (NYC) deadline
+TRANSP:TRANSPARENT
+URL:https://www.eranyc.com/apply/
+DESCRIPTION:Winter 2027 · New York City\, NY\, US · Last checked 2026-10
+ -07
+END:VEVENT
+BEGIN:VEVENT
+UID:20261102-mit-solve-mit-solve-2027-global-challenges-climate-learning-e
+ conomic-prosperity-@accelerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261102
+DTEND;VALUE=DATE:20261103
+SUMMARY:MIT Solve: MIT Solve 2027 Global Challenges (Climate\, Learning\, 
+ Economic Prosperity\, Health…) deadline
+TRANSP:TRANSPARENT
+URL:https://solve.mit.edu/challenges/2027-global-climate-challenge
+DESCRIPTION:2027 Solver class · Cambridge\, MA\, US (global) · Last chec
+ ked 2026-10-07
+END:VEVENT
+BEGIN:VEVENT
+UID:20261103-founder-institute-texas-fi-agentic-program-austin-fall-2026@a
+ ccelerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261103
+DTEND;VALUE=DATE:20261104
+SUMMARY:Founder Institute Texas: FI Agentic Program: Austin deadline
+TRANSP:TRANSPARENT
+URL:https://fi.co/program/Austin
+DESCRIPTION:Fall 2026 · Austin\, TX\, US · Last checked 2026-10-07
+END:VEVENT
+BEGIN:VEVENT
+UID:20261105-mdss-merck-digital-sciences-studio-mdss-cohort-2027@accelerat
+ or-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261105
+DTEND;VALUE=DATE:20261106
+SUMMARY:MDSS: Merck Digital Sciences Studio (MDSS) deadline
+TRANSP:TRANSPARENT
+URL:https://www.mds.studio/program/
+DESCRIPTION:Cohort 2027 · Newark\, US · Last checked 2026-10-07
+END:VEVENT
+BEGIN:VEVENT
+UID:20261106-idea-village-villagex-gulf-south-raise-1m-2027@accelerator-co
+ verage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261106
+DTEND;VALUE=DATE:20261107
+SUMMARY:Idea Village: VILLAGEx (Gulf South\, raise $1M+) deadline
+TRANSP:TRANSPARENT
+URL:https://www.ideavillage.org/villagex
+DESCRIPTION:2027 · New Orleans\, US · Last checked 2026-10-07
+END:VEVENT
+BEGIN:VEVENT
+UID:20261110-founder-institute-fi-agentic-program-online-fi-co-join-next-c
+ ohort@accelerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261110
+DTEND;VALUE=DATE:20261111
+SUMMARY:Founder Institute: FI Agentic Program: online (fi.co/join) deadlin
+ e
+TRANSP:TRANSPARENT
+URL:https://fi.co/join
+DESCRIPTION:next cohort · Online / chapters · Last checked 2026-10-07
+END:VEVENT
+BEGIN:VEVENT
+UID:20261118-techstars-techstars-accelerators-umbrella-spring-2027@acceler
+ ator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Techstars: Techstars Accelerators (umbrella) deadline
+TRANSP:TRANSPARENT
+URL:https://www.techstars.com/accelerators
+DESCRIPTION:Spring 2027 · national · Last checked 2026-09-30
+END:VEVENT
+BEGIN:VEVENT
+UID:20261118-techstars-anywhere-techstars-anywhere-spring-2027@accelerator
+ -coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Techstars Anywhere: Techstars Anywhere deadline
+TRANSP:TRANSPARENT
+URL:https://www.techstars.com/accelerators/anywhere
+DESCRIPTION:Spring 2027 · Anywhere (remote) · Last checked 2026-09-30
+END:VEVENT
+BEGIN:VEVENT
+UID:20261118-techstars-ai-health-baltimore-techstars-ai-health-baltimore-s
+ pring-2027@accelerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Techstars AI Health Baltimore: Techstars AI Health Baltimore deadl
+ ine
+TRANSP:TRANSPARENT
+URL:https://www.techstars.com/accelerators/baltimore-ai-health
+DESCRIPTION:Spring 2027 · Baltimore · Last checked 2026-09-30
+END:VEVENT
+BEGIN:VEVENT
+UID:20261118-techstars-boston-techstars-boston-spring-2027@accelerator-cov
+ erage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Techstars Boston: Techstars Boston deadline
+TRANSP:TRANSPARENT
+URL:https://www.techstars.com/accelerators/boston
+DESCRIPTION:Spring 2027 · Boston · Last checked 2026-09-30
+END:VEVENT
+BEGIN:VEVENT
+UID:20261118-techstars-chicago-techstars-chicago-spring-2027@accelerator-c
+ overage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Techstars Chicago: Techstars Chicago deadline
+TRANSP:TRANSPARENT
+URL:https://www.techstars.com/accelerators/chicago
+DESCRIPTION:Spring 2027 · Chicago · Last checked 2026-09-30
+END:VEVENT
+BEGIN:VEVENT
+UID:20261118-techstars-london-techstars-london-spring-2027@accelerator-cov
+ erage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Techstars London: Techstars London deadline
+TRANSP:TRANSPARENT
+URL:https://www.techstars.com/accelerators/london
+DESCRIPTION:Spring 2027 · London · Last checked 2026-09-30
+END:VEVENT
+BEGIN:VEVENT
+UID:20261118-northwestern-medicine-techstars-healthcare-northwestern-medic
+ ine-techstars-healt@accelerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Northwestern Medicine & Techstars Healthcare: Northwestern Medicin
+ e & Techstars Healthcare deadline
+TRANSP:TRANSPARENT
+URL:https://www.techstars.com/accelerators/northwestern-medicine-healthcar
+ e
+DESCRIPTION:Spring 2027 · Chicago · Last checked 2026-09-30
+END:VEVENT
+BEGIN:VEVENT
+UID:20261118-techstars-new-york-city-techstars-new-york-city-spring-2027@a
+ ccelerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:Techstars New York City: Techstars New York City deadline
+TRANSP:TRANSPARENT
+URL:https://www.techstars.com/accelerators/nyc
+DESCRIPTION:Spring 2027 · New York City · Last checked 2026-09-30
+END:VEVENT
+BEGIN:VEVENT
+UID:20261118-usc-and-techstars-usc-and-techstars-spring-2027@accelerator-c
+ overage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261118
+DTEND;VALUE=DATE:20261119
+SUMMARY:USC and Techstars: USC and Techstars deadline
+TRANSP:TRANSPARENT
+URL:https://www.techstars.com/accelerators/usc-and-techstars
+DESCRIPTION:Spring 2027 · Los Angeles · Last checked 2026-09-30
+END:VEVENT
+BEGIN:VEVENT
+UID:20261119-masschallenge-smu-cox-fintech-accelerator-powered-by-masschal
+ lenge-2027-inaugura@accelerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261119
+DTEND;VALUE=DATE:20261120
+SUMMARY:MassChallenge: SMU Cox FinTech Accelerator (powered by MassChallen
+ ge) deadline
+TRANSP:TRANSPARENT
+URL:https://masschallenge.org/our-accelerators/
+DESCRIPTION:2027 (inaugural) · Dallas\, TX\, US · Last checked 2026-10-0
+ 7
+END:VEVENT
+BEGIN:VEVENT
+UID:20261125-masschallenge-masschallenge-switzerland-sustainable-materials
+ -challenge-2027@accelerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:MassChallenge: MassChallenge Switzerland: Sustainable Materials Ch
+ allenge deadline
+TRANSP:TRANSPARENT
+URL:https://apply.masschallenge.org/mcch-sustainable-materials-challenge-2
+ 027
+DESCRIPTION:2027 · Switzerland · Last checked 2026-10-07
+END:VEVENT
+BEGIN:VEVENT
+UID:20261125-fintech-innovation-lab-fintech-innovation-lab-new-york-accent
+ ure-partnership-fun@accelerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261125
+DTEND;VALUE=DATE:20261126
+SUMMARY:FinTech Innovation Lab: FinTech Innovation Lab New York (Accenture
+  + Partnership Fund for NYC) deadline
+TRANSP:TRANSPARENT
+URL:https://www.fintechinnovationlab.com/apply/new-york/
+DESCRIPTION:2027 · New York City\, NY\, US · Last checked 2026-10-07
+END:VEVENT
+BEGIN:VEVENT
+UID:20261201-medtech-innovator-medtech-innovator-accelerator-2027@accelera
+ tor-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261201
+DTEND;VALUE=DATE:20261202
+SUMMARY:MedTech Innovator: MedTech Innovator Accelerator deadline
+TRANSP:TRANSPARENT
+URL:https://medtechinnovator.org/apply
+DESCRIPTION:2027 · Los Angeles\, CA\, US (virtual + SF/Boston events) · 
+ Last checked 2026-10-07
+END:VEVENT
+BEGIN:VEVENT
+UID:20261211-nec-x-nec-x-elev-x-ignite-batch-17@accelerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20261211
+DTEND;VALUE=DATE:20261212
+SUMMARY:NEC X: NEC X Elev X! Ignite deadline
+TRANSP:TRANSPARENT
+URL:https://elev-x.secure-platform.com/ignite/
+DESCRIPTION:Batch 17 · Palo Alto\, US · Last checked 2026-10-07
+END:VEVENT
+BEGIN:VEVENT
+UID:20270111-nextcorps-luminate-ny-optics-photonics-imaging-lasers-round-1
+ 0-2027@accelerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20270111
+DTEND;VALUE=DATE:20270112
+SUMMARY:Nextcorps: Luminate NY (optics/photonics/imaging/lasers) deadline
+TRANSP:TRANSPARENT
+URL:https://luminate.org
+DESCRIPTION:Round 10 (2027) · Rochester\, NY\, US · Last checked 2026-10
+ -07
+END:VEVENT
+BEGIN:VEVENT
+UID:20270122-tampa-bay-wave-tampa-bay-wave-cybertech-x-accelerator-2027@ac
+ celerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20270122
+DTEND;VALUE=DATE:20270123
+SUMMARY:Tampa Bay Wave: Tampa Bay Wave CyberTech|X Accelerator deadline
+TRANSP:TRANSPARENT
+URL:https://www.tampabaywave.org/cybertech/
+DESCRIPTION:2027 · Tampa\, US · Last checked 2026-10-07
+END:VEVENT
+BEGIN:VEVENT
+UID:20270205-growthx-growthx-b2b-sales-accelerator-feb-2027-cohort@acceler
+ ator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20270205
+DTEND;VALUE=DATE:20270206
+SUMMARY:GrowthX: GrowthX B2B sales accelerator deadline
+TRANSP:TRANSPARENT
+URL:https://growthx.com/
+DESCRIPTION:Feb 2027 cohort · San Francisco\, US · Last checked 2026-10-
+ 07
+END:VEVENT
+BEGIN:VEVENT
+UID:20270302-mana-up-mana-up-accelerator-hawai-i-consumer-brands-cohort-12
+ @accelerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20270302
+DTEND;VALUE=DATE:20270303
+SUMMARY:Mana Up: Mana Up accelerator (Hawaiʻi consumer brands) deadline
+TRANSP:TRANSPARENT
+URL:https://manauphawaii.com/
+DESCRIPTION:Cohort 12 · Honolulu\, US · Last checked 2026-10-07
+END:VEVENT
+BEGIN:VEVENT
+UID:20270615-penn-venture-initiation-program-penn-vip-incubator-tangen-hal
+ l-2026-27@accelerator-coverage
+DTSTAMP:20261008T144516Z
+DTSTART;VALUE=DATE:20270615
+DTEND;VALUE=DATE:20270616
+SUMMARY:Penn Venture Initiation Program: Penn VIP Incubator (Tangen Hall) 
+ deadline
+TRANSP:TRANSPARENT
+URL:https://venturelab.upenn.edu/venture-initiation-program
+DESCRIPTION:2026–27 · Philadelphia\, PA\, US · Last checked 2026-10-07
+END:VEVENT
+END:VCALENDAR

@@ -103,6 +103,8 @@ cal.sort(key=lambda x: x["due"])
 
 # ---- application-deadline calendar (structure ready; filled in as we go) ----
 appf = os.path.join(DATA, "cohort_application_deadlines.json")
+APP_PASS = ["status", "hq_us", "date_confidence", "cadence", "program", "demo_day", "program_start",
+            "application_open", "check_size_terms", "source_urls", "last_checked"]
 app_deadlines = []
 if os.path.exists(appf):
     doc = json.load(open(appf))
@@ -111,14 +113,89 @@ if os.path.exists(appf):
         app_deadlines.append({"n": d.get("accelerator"), "u": d.get("dealroom_url") or (r["u"] if r else None),
                               "due": d.get("application_close"), "cohort": d.get("cohort_name") or "",
                               "apply": d.get("apply_url") or "", "region": d.get("region") or "",
-                              "val": (r["val"] if r else None)})
+                              "val": (r["val"] if r else None),
+                              # Cohort Calendar sweep keys (2026-10-08), passed through as-is
+                              **{k: d.get(k) or "" for k in APP_PASS}})
 app_deadlines = [d for d in app_deadlines if d["due"]]
 app_deadlines.sort(key=lambda x: x["due"])
+
+# ---- full Cohort Calendar (marketing sweep; data/cohort_calendar.json = the sheet's A–Z) ----
+# Slim columnar projection: A, C–I, K, L, O–V, X, Y (+ J notes only for active_* rows, to keep
+# the page small). dealroom_url is stored as the /investors/ slug. `sec` = Dealroom sectors
+# joined from the leaderboard rows by slug (only some rows match).
+CC_MAP = [("n", "accelerator"), ("slug", "dealroom_url"), ("prog", "program"), ("coh", "cohort_name"),
+          ("open", "application_open"), ("close", "application_close"), ("start", "program_start"),
+          ("apply", "apply_url"), ("notes", "notes"), ("st", "status"), ("hq", "hq_us"),
+          ("loc", "location"), ("cad", "cadence"), ("end", "program_end"), ("demo", "demo_day"),
+          ("check", "check_size_terms"), ("src", "source_urls"), ("conf", "date_confidence"),
+          ("ws", "window_status"), ("lc", "last_checked"), ("ls", "list_source")]
+ccf = os.path.join(DATA, "cohort_calendar.json")
+cohort_calendar = None
+cc_rows = []
+if os.path.exists(ccf):
+    for x in json.load(open(ccf))["rows"]:
+        u = x.get("dealroom_url") or ""
+        slug = u.split("/investors/")[-1].rstrip("/") if "/investors/" in u else ""
+        rec = {k: (x.get(src) or "") for k, src in CC_MAP}
+        rec["slug"] = slug
+        if not rec["st"].startswith("active_"):
+            rec["notes"] = ""
+        lr = row_by_slug.get(slug)
+        rec["sec"] = ";".join(lr["sec"]) if lr and lr["sec"] else ""
+        cc_rows.append(rec)
+    cols = [k for k, _ in CC_MAP] + ["sec"]
+    cohort_calendar = {"cols": cols, "rows": [[r[k] for k in cols] for r in cc_rows],
+                       "last_checked": max((r["lc"] for r in cc_rows if r["lc"]), default="")}
+
+# Static .ics of the DEFAULT view (active_*, US HQ, published exact closes, today onward).
+# The artifact viewer can't save .ics through its downloads capability, so the page links this.
+def _slugify(t):
+    out, dash = [], False
+    for ch in t.lower():
+        if ch.isalnum() and ch.isascii():
+            out.append(ch); dash = False
+        elif not dash:
+            out.append("-"); dash = True
+    return "".join(out).strip("-")[:80]
+def _ics_esc(t):
+    return (t or "").replace("\\", "\\\\").replace(";", "\\;").replace(",", "\\,").replace("\r", "").replace("\n", "\\n")
+def _fold(line):
+    b = line.encode("utf-8"); parts = []
+    while len(b) > 74:
+        cut = 74
+        while (b[cut] & 0xC0) == 0x80: cut -= 1
+        parts.append(b[:cut].decode()); b = b[cut:]
+    parts.append(b.decode())
+    return "\r\n ".join(parts)
+TODAY = datetime.date.today().isoformat()
+ics = ["BEGIN:VCALENDAR", "VERSION:2.0", "PRODID:-//Dealroom//Accelerator Cohort Calendar//EN",
+       "CALSCALE:GREGORIAN", "METHOD:PUBLISH", "X-WR-CALNAME:Accelerator application deadlines"]
+stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%dT%H%M%SZ")
+n_ics = 0
+for r in sorted(cc_rows, key=lambda r: r["close"]):
+    c = r["close"]
+    if not (len(c) == 10 and r["conf"] == "published" and r["st"].startswith("active_")
+            and r["hq"] == "Y" and c >= TODAY):
+        continue
+    d0 = datetime.date.fromisoformat(c)
+    desc = " · ".join(t for t in [r["coh"], r["loc"], "Last checked " + r["lc"] if r["lc"] else ""] if t)
+    ev = ["BEGIN:VEVENT", "UID:" + c.replace("-", "") + "-" + _slugify(r["n"] + "|" + r["prog"] + "|" + r["coh"]) + "@accelerator-coverage",
+          "DTSTAMP:" + stamp, "DTSTART;VALUE=DATE:" + d0.strftime("%Y%m%d"),
+          "DTEND;VALUE=DATE:" + (d0 + datetime.timedelta(days=1)).strftime("%Y%m%d"),
+          "SUMMARY:" + _ics_esc(f"{r['n']}: {r['prog'] or r['n']} deadline"), "TRANSP:TRANSPARENT"]
+    if r["apply"].startswith(("http://", "https://")):
+        ev.append("URL:" + r["apply"])
+    if desc:
+        ev.append("DESCRIPTION:" + _ics_esc(desc))
+    ics += ev + ["END:VEVENT"]; n_ics += 1
+ics.append("END:VCALENDAR")
+open(os.path.join(BASE, "cohort_deadlines.ics"), "w", newline="").write("\r\n".join(_fold(l) for l in ics) + "\r\n")
 
 payload = {"generated": "2026-09-16", "today": datetime.date.today().isoformat(),
            "n_total": n_total, "n_vc": n_vc, "n_worked": len(matched),
            "add_total": add_total, "np_total": np_total, "n_scheduled": len(cal),
-           "rows": rows, "calendar": cal, "app_deadlines": app_deadlines}
+           "rows": rows, "calendar": cal, "app_deadlines": app_deadlines,
+           "cohort_calendar": cohort_calendar}
 
 HTML = """<!doctype html>
 <html lang="en"><head>
@@ -231,6 +308,7 @@ HTML = """<!doctype html>
   .ag-more-btn:hover{border-color:var(--muted)}
   .ag-more-body{display:flex;flex-direction:column;gap:20px;margin-top:18px}
   .cal-note{color:var(--muted);font-size:12px;margin:2px 0 14px}
+__APPS_CSS__
 </style></head>
 <body>
   <div class="top">
@@ -279,14 +357,9 @@ HTML = """<!doctype html>
         <div class="monthstrip" id="rcStrip"></div>
         <div class="agenda" id="rcAgenda"></div>
       </div>
-      <div id="appsCal" hidden>
-        <p class="cal-note" id="apNote"></p>
-        <div class="kpis" id="apTiles" style="margin-bottom:16px"></div>
-        <div class="monthstrip" id="apStrip"></div>
-        <div class="agenda" id="apAgenda"></div>
-      </div>
-    </div>
+__APPS_HTML__    </div>
   </div>
+__APPS_OVERLAY__
 <script id="payload" type="application/json">__PAYLOAD__</script>
 <script>
 const D=JSON.parse(document.getElementById('payload').textContent);
@@ -416,9 +489,7 @@ let rcDone=false, apDone=false;
 function renderRecheck(){ if(rcDone)return; rcDone=true;
   document.getElementById('rcNote').innerHTML=`Cohort re-check schedule for the ${D.calendar.length} accelerators we're actively tracking &mdash; <b>&#8635;</b> cohort-aligned, <b>&#9998;</b> manually set. New accelerators get a schedule as they're worked.`;
   renderCal(D.calendar,{tiles:'rcTiles',strip:'rcStrip',agenda:'rcAgenda',prefix:'rc',empty:'No re-checks scheduled yet.'},'recheck'); }
-function renderApps(){ if(apDone)return; apDone=true;
-  document.getElementById('apNote').innerHTML=`Upcoming cohort application deadlines &mdash; the seed of a public destination where founders find open calls. Windows are added as we enrich accelerators with their application dates; past windows are listed as Closed.`;
-  renderCal(D.app_deadlines,{tiles:'apTiles',strip:'apStrip',agenda:'apAgenda',prefix:'ap',empty:"No application deadlines captured yet. As we enrich accelerators with their open-call dates, upcoming cohort application windows will show up here."},'apps'); }
+function renderApps(){ if(apDone)return; apDone=true; window.apInit(); }
 function showCal(apps){
   document.getElementById('recheckCal').hidden=apps; document.getElementById('appsCal').hidden=!apps;
   document.getElementById('cRecheck').classList.toggle('on',!apps); document.getElementById('cApps').classList.toggle('on',apps);
@@ -433,10 +504,18 @@ function showView(cal){
 }
 document.getElementById('vLead').onclick=()=>showView(false);
 document.getElementById('vCal').onclick=()=>showView(true);
+__APPS_JS__
 </script>
 </body></html>"""
 
-out = HTML.replace("__PAYLOAD__", json.dumps(payload, ensure_ascii=False))
+import sys
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+import cohort_calendar_ui as ui
+page = (HTML.replace("__APPS_CSS__", ui.CSS).replace("__APPS_HTML__", ui.HTML)
+            .replace("__APPS_OVERLAY__", ui.OVERLAY).replace("__APPS_JS__", ui.JS))
+# "</" inside the JSON would end the <script> block early; escape it
+out = page.replace("__PAYLOAD__", json.dumps(payload, ensure_ascii=False).replace("</", "<\\/"))
 open(os.path.join(BASE, "leaderboard.html"), "w").write(out)
+print(f"Wrote cohort_deadlines.ics ({n_ics} upcoming default-view deadlines); cohort calendar {len(cc_rows)} rows")
 print(f"Wrote leaderboard.html  ({n_total} accelerators, {n_vc} VC-backed, {len(matched)} worked; "
       f"+{add_total} portfolio additions, {np_total} new profiles)")
