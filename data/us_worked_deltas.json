@@ -286,8 +286,8 @@
   "region": "national",
   "as_of": "2026-10-07",
   "notes": "Rule B: regional program/fund as SparkLabs publishes; Group = umbrella/Global Capital only. Worked adds 171 (attach 78 + creates batch 17 + cleanup 5 + holds 71); creates 9. All SparkLabs entities 382 → 495 (Korea 214, Taiwan 83, GV 92, Ventures 23, Cultiv8 49, Saudi 12, Frontier-ASU 1, Group 21→20 after purge). AU corporate 'sparklabs' 5 wrong deals → 0. to_create 5; 4 unlinked holds. Only US program Frontier-ASU (pf 1).",
-  "portfolio_now": 495,
+  "portfolio_now": 20,
   "portfolio_now_as_of": "2026-10-07",
-  "portfolio_now_note": "all SparkLabs entities; Group umbrella alone is 20 after rule-B moves"
+  "portfolio_now_note": "Group umbrella only, after rule-B moves to regional SparkLabs entities (network total 495)"
  }
 }
