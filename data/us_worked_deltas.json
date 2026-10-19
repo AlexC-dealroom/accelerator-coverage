@@ -289,5 +289,16 @@
   "portfolio_now": 20,
   "portfolio_now_as_of": "2026-10-07",
   "portfolio_now_note": "Group umbrella only, after rule-B moves to regional SparkLabs entities (network total 495)"
+ },
+ "masschallenge": {
+  "delta": 823,
+  "new_profiles": 74,
+  "name": "MassChallenge",
+  "region": "national",
+  "as_of": "2026-10-16",
+  "notes": "Umbrella only. before 3284 → live after 4107. Links: 549 SUPPORT PROGRAM, 162 portfolio-only, 9 on existing rounds; 74 creates; 90 grants (45 new, 45 merged); 760 rounds verified. ~120 create holds dropped.",
+  "portfolio_now": 4107,
+  "portfolio_now_as_of": "2026-10-16",
+  "portfolio_now_note": "live, umbrella masschallenge"
  }
 }
